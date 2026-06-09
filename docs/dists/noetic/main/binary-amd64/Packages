@@ -198,12 +198,12 @@ Version: 1.0.4-0focal
 Architecture: amd64
 Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
 Installed-Size: 1954
-Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-nlopt (>= 2.4.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-nlopt, ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
 Filename: pool/noetic/main/ros-noetic-pairs-uav-trajectory-generation_1.0.4-0focal_amd64.deb
-Size: 444712
-MD5sum: 5300ab562df8cd6c0b6299a21a0a9728
-SHA1: 777cdcc43a7103a3dbe211237f1856eb8de88eeb
-SHA256: bd6dc7a3b39d3bf2a95d1d3cba9a5a0d46ffbeb1336607fa7eca851ce311550b
+Size: 444684
+MD5sum: 63a760426a4f892e47a4bbd458152e5f
+SHA1: 20cb25a53748274b4b29afb1a2406275de406a6d
+SHA256: b7a9e830cbfb64c5a3d500c48f98738ccf3d92585db3c78aabc01c2e0783a134
 Section: misc
 Priority: optional
 Description: UAV trajectory generation
