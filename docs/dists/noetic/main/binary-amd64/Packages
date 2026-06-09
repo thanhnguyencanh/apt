@@ -43,6 +43,21 @@ Section: misc
 Priority: optional
 Description: The PAIRS Multirotor simulator
 
+Package: ros-noetic-pairs-rviz-plugins
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 6160
+Depends: libboost-thread1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libogre-1.9.0v5 (>= 1.9.0+dfsg1-9~), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libqt5gui5, qtbase5-dev, ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rviz, ros-noetic-rviz-satellite, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-rviz-plugins_1.0.4-0focal_amd64.deb
+Size: 1278296
+MD5sum: a86efc53251b97211101ee0ad9d9b8a7
+SHA1: bff006df20d45f776b2b60ec2ecfdff9bebf2a1d
+SHA256: a79a1bd22256ee8c0dc0753ced5159ef1bc57502d5d9ee9390d623631aab731f
+Section: misc
+Priority: optional
+Description: Plugin for rviz to work with the PAIRS system
+
 Package: ros-noetic-pairs-uav-autostart
 Version: 1.0.4-0focal
 Architecture: amd64
