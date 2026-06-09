@@ -93,12 +93,12 @@ Version: 1.0.0-0focal
 Architecture: amd64
 Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
 Installed-Size: 69
-Depends: moreutils, python3-catkin-tools, ros-noetic-catkin, ros-noetic-cmake-modules, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-multirotor-simulator, ros-noetic-pairs-rviz-plugins, ros-noetic-pairs-uav-autostart, ros-noetic-pairs-uav-controllers, ros-noetic-pairs-uav-hw-api, ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-pairs-uav-status, ros-noetic-pairs-uav-trackers, ros-noetic-pairs-uav-trajectory-generation, ros-noetic-rosbag (>= 1.16.666), ros-noetic-rospy, ros-noetic-tf2 (>= 0.7.666), ros-noetic-tf2-ros (>= 0.7.666), tmux, tmuxinator
+Depends: moreutils, python3-catkin-tools, ros-noetic-catkin, ros-noetic-cmake-modules, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-multirotor-simulator, ros-noetic-pairs-rviz-plugins, ros-noetic-pairs-uav-autostart, ros-noetic-pairs-uav-controllers, ros-noetic-pairs-uav-hw-api, ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-pairs-uav-status, ros-noetic-pairs-uav-trackers, ros-noetic-pairs-uav-trajectory-generation, ros-noetic-rosbag, ros-noetic-rospy, ros-noetic-tf2, ros-noetic-tf2-ros, tmux, tmuxinator
 Filename: pool/noetic/main/ros-noetic-pairs-uav-core_1.0.0-0focal_amd64.deb
-Size: 10660
-MD5sum: 1d91770998b96ce7481cc1eb4b64b709
-SHA1: b17b4230065f9135d1cc84b88682abea044ae82b
-SHA256: 045f10ee457d211dbfe8c54d4529e4e34cf721ef6e680475793ca305ba344c6b
+Size: 10632
+MD5sum: abf817cee9e2281763229c8c8e94075a
+SHA1: 1990249fc7ae59e2dea094c25a9c4163d3486465
+SHA256: 823999031dded5003d07a1d7c5a9070ed4a604976d619e9bc9fe4901d586f7c6
 Section: misc
 Priority: optional
 Description: The PAIRS UAV Core metapackage
