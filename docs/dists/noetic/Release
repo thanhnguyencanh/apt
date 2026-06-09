@@ -1,0 +1,24 @@
+Architectures: amd64
+Codename: noetic
+Components: main
+Date: Tue, 09 Jun 2026 17:14:03 +0000
+Description: PAIRS Lab ROS packages (noetic)
+Label: PAIRS Lab
+Origin: pairs-lab
+Suite: noetic
+MD5Sum:
+ 8bbd6e9152e34ef1160e81ccc90e5088              187 Release
+ 7d6308ab80d8d9f434e4017aa1e1067a             1842 main/binary-amd64/Packages
+ abf0f44ae57ef9d7372412cadbe4ca9e              804 main/binary-amd64/Packages.gz
+SHA1:
+ 3035ba79c42c42f12e8c0b58d86ece303ec1c574              187 Release
+ a4740585831fb1f946fb8a359ece683b39c42ca7             1842 main/binary-amd64/Packages
+ 505e054fe94aaa3af81d31cfcf95d08892680544              804 main/binary-amd64/Packages.gz
+SHA256:
+ 0a2ec6644891945a99827e9c5ef25e8c364da78546b0b57da2d9df99f8bfa8da              187 Release
+ d94d041bb642f44632f27968120085f19e3b54c04179f7f8cf9dbd54922c97b7             1842 main/binary-amd64/Packages
+ 914698500217046876676aa776ee970d99120e43b0df16e82784d9fde650a009              804 main/binary-amd64/Packages.gz
+SHA512:
+ c67a8519e15e50262472f1e9492fa6e00cbd2fb1bdd665dd38e268978569ad95118096b5ba5954d98aa7382386107a2fdcf09fb8373eafaf83bf4fa1af48a7cd              187 Release
+ 2e270489ef2012e49ed8cf8aaf5fa1fcbc32dae93b9b613fd7e937cfe49de5848c9a4709def98e702510f325134acc7cfeea352f6109f4b35edca3711c1bfedd             1842 main/binary-amd64/Packages
+ 945072628ef0a37d36e9e166ea8aa4d3997ea3fd2c9d601c9889fee2c77a289eda194defd4bcc6764d4af0f35696a770e772deaa542996d8fa073099f9c6d1a5              804 main/binary-amd64/Packages.gz

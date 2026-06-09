@@ -1,0 +1,30 @@
+Package: ros-noetic-pairs-lib
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1893
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libopencv-dev, libyaml-cpp-dev, ros-noetic-cmake-modules, ros-noetic-cv-bridge, ros-noetic-geometry-msgs, ros-noetic-image-transport, ros-noetic-nav-msgs, ros-noetic-pairs-msgs, ros-noetic-pcl-conversions, ros-noetic-pcl-msgs, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf-conversions, ros-noetic-tf2, ros-noetic-tf2-geometry-msgs, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-lib_1.0.0-0focal_amd64.deb
+Size: 341992
+MD5sum: 31368137176b134a980b01e60acbe1e7
+SHA1: 5c24eebf6d821ce86e244b09dce199b9325b3209
+SHA256: beaf6297f49873e6b1426b35e33e48437f3d2d6bc3cf11bd9f5bd4ab625a2f93
+Section: misc
+Priority: optional
+Description: PAIRS shared C++ library — attitude math, filters, parameter loading, geometry utilities, transformations
+
+Package: ros-noetic-pairs-msgs
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 6442
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs
+Filename: pool/noetic/main/ros-noetic-pairs-msgs_1.0.0-0focal_amd64.deb
+Size: 347856
+MD5sum: d0e1a83b2be79a4c9534d956971c7bee
+SHA1: c4131801d69390e5fb90796a8da87474ed42ff4f
+SHA256: f8cbfb0c9c22943abfff5e4ce882d161863fc2cfe5e8c3418ac4cb4efaef19d1
+Section: misc
+Priority: optional
+Description: PAIRS UAV custom ROS message and service definitions
+

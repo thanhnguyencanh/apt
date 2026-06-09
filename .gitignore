@@ -1,0 +1,6 @@
+# NEVER commit the private signing key
+keys/
+*.asc
+
+# local build inputs (the .debs are attached to GitHub Releases / rebuilt by CI)
+debs/*.deb
