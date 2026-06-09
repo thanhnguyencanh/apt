@@ -28,6 +28,51 @@ Section: misc
 Priority: optional
 Description: PAIRS UAV custom ROS message and service definitions
 
+Package: ros-noetic-pairs-multirotor-simulator
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 3681
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-hw-api, ros-noetic-roscpp, ros-noetic-rosgraph-msgs, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs
+Filename: pool/noetic/main/ros-noetic-pairs-multirotor-simulator_1.0.0-0focal_amd64.deb
+Size: 489240
+MD5sum: 907cb09f1a55e0356d9ba3999f4fe311
+SHA1: c35cef0d4a4a07e25fbc1c45d5beb5dedde93c4f
+SHA256: 5bf7f2b21bb54a7ad0dfdb680d3fbd58c22c97b2283583b19d683705d20b7fe0
+Section: misc
+Priority: optional
+Description: The PAIRS Multirotor simulator
+
+Package: ros-noetic-pairs-uav-autostart
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 757
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-std-srvs, ros-noetic-topic-tools
+Filename: pool/noetic/main/ros-noetic-pairs-uav-autostart_1.0.4-0focal_amd64.deb
+Size: 127660
+MD5sum: e480600a45b0f2b28c599e8b5726f4e7
+SHA1: c6c758962106a6076308c60b3f656c0fa3a87232
+SHA256: bcde91a5e827511c11e82b02307a21a812ebd11d996b9b5fdb3efe353cd661e5
+Section: misc
+Priority: optional
+Description: The pairs_uav_autostart package
+
+Package: ros-noetic-pairs-uav-controllers
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 2938
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy
+Filename: pool/noetic/main/ros-noetic-pairs-uav-controllers_1.0.4-0focal_amd64.deb
+Size: 484012
+MD5sum: fabc3f51c4a934c8514cac3a3b3bc5fc
+SHA1: 55e810b7f6edaa0322f6b9bd81ef835ec871ba9d
+SHA256: 9f6ce2a0ddf57393e7262d0a3af0347a25b91e5ac9e1720030c98068d36490cc
+Section: misc
+Priority: optional
+Description: The pairs_uav_controllers package
+
 Package: ros-noetic-pairs-uav-hw-api
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -42,4 +87,94 @@ SHA256: 0ae2b84cb8d38a59b9ec454ec9b8fa18afd29129b904c8182925217238553ddb
 Section: misc
 Priority: optional
 Description: The pairs_uav_hw_api package
+
+Package: ros-noetic-pairs-uav-managers
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 6647
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libtinyxml2-6a (>= 5.0.0), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-rostest, ros-noetic-std-msgs, ros-noetic-tf2, ros-noetic-tf2-geometry-msgs, ros-noetic-tf2-ros, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-managers_1.0.4-0focal_amd64.deb
+Size: 1043744
+MD5sum: f1032133b1bf00b5301111b67c287bed
+SHA1: 3f0f0cfe6b6559b3fb667dff5ffcaaa7edde3a34
+SHA256: 661a045ca37a1f95c5998be58c1c6584a42fe8892459d77e09c658b0e270b31d
+Section: misc
+Priority: optional
+Description: The pairs_uav_managers package
+
+Package: ros-noetic-pairs-uav-state-estimators
+Version: 0.0.3-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 5558
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-plotjuggler, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2-geometry-msgs, ros-noetic-tf2-ros
+Filename: pool/noetic/main/ros-noetic-pairs-uav-state-estimators_0.0.3-0focal_amd64.deb
+Size: 720988
+MD5sum: 260173b8e053778a606344345c9cb5ad
+SHA1: 8fd3526f75c69994fb9545bfd580fc53dce597d8
+SHA256: 682bb608a29a5892157f76e7f0e3f4789b08fddac6515e6a0721a6beaa178f13
+Section: misc
+Priority: optional
+Description: The pairs_uav_state_estimators package
+
+Package: ros-noetic-pairs-uav-status
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 926
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libncurses6 (>= 6), libstdc++6 (>= 9), libtinfo6 (>= 6), libyaml-cpp0.6 (>= 0.6.2), libncurses-dev, ros-noetic-cmake-modules, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-topic-tools
+Filename: pool/noetic/main/ros-noetic-pairs-uav-status_1.0.4-0focal_amd64.deb
+Size: 207840
+MD5sum: 9abb4912d1fb001f1422f08f41eb60d1
+SHA1: 1faa59970793a9dd46bf52639f40dda5c2557ed4
+SHA256: 9180289723d70bd75c7e8a54937625f3c9485b95adb342d6177610639766717a
+Section: misc
+Priority: optional
+Description: The pairs_uav_status package
+
+Package: ros-noetic-pairs-uav-testing
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1023
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-uav-testing_1.0.0-0focal_amd64.deb
+Size: 165384
+MD5sum: 4cacb4369e8f218e7f8837a39ee57a9a
+SHA1: 340cf6bf1953e52003c6bd40660b447db8a7539a
+SHA256: 31dda1205029d23932d66d1470856d3f8392d496644a4fc3b5ad302d97706709
+Section: misc
+Priority: optional
+Description: The pairs_uav_testing package
+
+Package: ros-noetic-pairs-uav-trackers
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 3492
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-tf
+Filename: pool/noetic/main/ros-noetic-pairs-uav-trackers_1.0.4-0focal_amd64.deb
+Size: 633596
+MD5sum: 726ec18173d693c4ca317895dd3b513d
+SHA1: 611f383f852880b8c093e3386a3409ce0c8126b8
+SHA256: 82e0d978b423e4f63034d4ea44975db26b926c91921a916f91aaccaf4371549b
+Section: misc
+Priority: optional
+Description: The pairs_uav_trackers package
+
+Package: ros-noetic-pairs-uav-trajectory-generation
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1954
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-nlopt (>= 2.4.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-trajectory-generation_1.0.4-0focal_amd64.deb
+Size: 444712
+MD5sum: 5300ab562df8cd6c0b6299a21a0a9728
+SHA1: 777cdcc43a7103a3dbe211237f1856eb8de88eeb
+SHA256: bd6dc7a3b39d3bf2a95d1d3cba9a5a0d46ffbeb1336607fa7eca851ce311550b
+Section: misc
+Priority: optional
+Description: UAV trajectory generation
 
