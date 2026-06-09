@@ -88,6 +88,21 @@ Section: misc
 Priority: optional
 Description: The pairs_uav_controllers package
 
+Package: ros-noetic-pairs-uav-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 69
+Depends: moreutils, python3-catkin-tools, ros-noetic-catkin, ros-noetic-cmake-modules, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-multirotor-simulator, ros-noetic-pairs-rviz-plugins, ros-noetic-pairs-uav-autostart, ros-noetic-pairs-uav-controllers, ros-noetic-pairs-uav-hw-api, ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-pairs-uav-status, ros-noetic-pairs-uav-trackers, ros-noetic-pairs-uav-trajectory-generation, ros-noetic-rosbag (>= 1.16.666), ros-noetic-rospy, ros-noetic-tf2 (>= 0.7.666), ros-noetic-tf2-ros (>= 0.7.666), tmux, tmuxinator
+Filename: pool/noetic/main/ros-noetic-pairs-uav-core_1.0.0-0focal_amd64.deb
+Size: 10660
+MD5sum: 1d91770998b96ce7481cc1eb4b64b709
+SHA1: b17b4230065f9135d1cc84b88682abea044ae82b
+SHA256: 045f10ee457d211dbfe8c54d4529e4e34cf721ef6e680475793ca305ba344c6b
+Section: misc
+Priority: optional
+Description: The PAIRS UAV Core metapackage
+
 Package: ros-noetic-pairs-uav-hw-api
 Version: 1.0.0-0focal
 Architecture: amd64
