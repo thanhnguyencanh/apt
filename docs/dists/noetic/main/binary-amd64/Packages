@@ -20,11 +20,26 @@ Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
 Installed-Size: 6442
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs
 Filename: pool/noetic/main/ros-noetic-pairs-msgs_1.0.0-0focal_amd64.deb
-Size: 347856
-MD5sum: d0e1a83b2be79a4c9534d956971c7bee
-SHA1: c4131801d69390e5fb90796a8da87474ed42ff4f
-SHA256: f8cbfb0c9c22943abfff5e4ce882d161863fc2cfe5e8c3418ac4cb4efaef19d1
+Size: 347916
+MD5sum: b390d7239f730ec32d701fd493ca0305
+SHA1: 7318c61b6224b78237d317afbe729b83be7e45ef
+SHA256: 373e394353205f9bf7358e10ea9b54d6047ea1f14f22377e912ee7ab07f71ea0
 Section: misc
 Priority: optional
 Description: PAIRS UAV custom ROS message and service definitions
+
+Package: ros-noetic-pairs-uav-hw-api
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1390
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libtinyxml2-6a (>= 5.0.0), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-hw-api_1.0.0-0focal_amd64.deb
+Size: 214264
+MD5sum: 3a6606096d2357a693211d63403ff702
+SHA1: 8d26686c5b7afe3816fbf0a77c5a32e4895db9c8
+SHA256: 0ae2b84cb8d38a59b9ec454ec9b8fa18afd29129b904c8182925217238553ddb
+Section: misc
+Priority: optional
+Description: The pairs_uav_hw_api package
 
