@@ -141,6 +141,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_bumper/#jazzy
 Description: Program for publishing bumper messages for reactive collision avoidance
 
+Package: ros-jazzy-pairs-landing-pad-estimation
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 860
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-apriltag-msgs, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-landing-pad-estimation_2.0.0-0noble_amd64.deb
+Size: 228468
+MD5sum: f8128107bc256f8b966c7033dc2e4f45
+SHA1: 674f95ab346cb6b6cd648bab7245fa7df8c3bc4d
+SHA256: 20c0424a7f63dfe4dda5084288554b684459f36cba87203ba237e8431801bf55
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_landing_pad_estimation/#jazzy
+Description: pairs_landing_pad_estimation
+
 Package: ros-jazzy-pairs-lib
 Version: 1.0.0-0noble
 Architecture: amd64
@@ -364,6 +380,38 @@ Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_point_lio_estimator_plugin/#jazzy
 Description: PAIRS Point LIO state estimator plugin
+
+Package: ros-jazzy-pairs-precise-landing
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 1932
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-geometry-msgs, ros-jazzy-pairs-landing-pad-estimation, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-std-msgs, ros-jazzy-std-srvs
+Filename: pool/jazzy/main/ros-jazzy-pairs-precise-landing_2.0.0-0noble_amd64.deb
+Size: 319246
+MD5sum: 025a33cbecbfb3bf8e693490139510df
+SHA1: 540b2134efa6981dff5a68c3cf2e8013c334146f
+SHA256: 698aa7a9e3c567f154e606d0ba8213447d8699c900f7363a5043a8cc1c85c14c
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_precise_landing/#jazzy
+Description: The pairs_precise_landing package
+
+Package: ros-jazzy-pairs-precise-landing-gazebo
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 102
+Depends: ros-jazzy-ros-gz-sim
+Filename: pool/jazzy/main/ros-jazzy-pairs-precise-landing-gazebo_2.0.0-0noble_amd64.deb
+Size: 21086
+MD5sum: 7da6f165dfb8f40719081beb20ff4f90
+SHA1: 726467b44693939daa8ebaea3c0e35fe2f0bb4cf
+SHA256: 8b9079228c8409de71201ed71d971800f1979ef74c429083036a9a01bc7683ba
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_precise_landing_gazebo/#jazzy
+Description: PAIRS precise landing Gazebo simulation resources (models, worlds)
 
 Package: ros-jazzy-pairs-rviz-plugins
 Version: 2.0.0-0noble
