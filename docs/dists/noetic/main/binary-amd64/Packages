@@ -118,6 +118,70 @@ Section: misc
 Priority: optional
 Description: Ouster ROS driver
 
+Package: ros-noetic-ov-core
+Version: 2.7.0-0focal
+Architecture: amd64
+Maintainer: Patrick Geneva <pgeneva@udel.edu>
+Installed-Size: 2132
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-contrib4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-features2d4.2 (>= 4.2.0+dfsg), libopencv-highgui4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libopencv-video4.2 (>= 4.2.0+dfsg), libopencv-videoio4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 5.2), libboost-all-dev, libeigen3-dev, libopencv-contrib-dev, libopencv-dev, ros-noetic-cmake-modules, ros-noetic-cv-bridge, ros-noetic-rosbag, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Filename: pool/noetic/main/ros-noetic-ov-core_2.7.0-0focal_amd64.deb
+Size: 549204
+MD5sum: 8454170d7e5133ab311dbda3d9018c45
+SHA1: c4468cd800fac0b96e6c36f2ed0862cf66d1d05e
+SHA256: 03dfb27831a5a8dbf832c976b3189bdf1f3d8a4e94f80dcfe9b742736a133c24
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Core algorithms for visual-inertial navigation algorithms.
+
+Package: ros-noetic-ov-eval
+Version: 2.7.0-0focal
+Architecture: amd64
+Maintainer: Patrick Geneva <pgeneva@udel.edu>
+Installed-Size: 1524
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), libboost-all-dev, libeigen3-dev, ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-ov-core, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs
+Filename: pool/noetic/main/ros-noetic-ov-eval_2.7.0-0focal_amd64.deb
+Size: 335552
+MD5sum: 45ac9eb649f66a4b8480717206c7efd8
+SHA1: af4187dd0adf7f628823a699e0f138e3123183bc
+SHA256: f6d103e7d2481cec521488a2089b45eae6aa0aa3b5ebb136179dcaca1e7b7e3d
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Evaluation methods and scripts for visual-inertial odometry systems.
+
+Package: ros-noetic-ov-init
+Version: 2.7.0-0focal
+Architecture: amd64
+Maintainer: Patrick Geneva <pgeneva@udel.edu>
+Installed-Size: 2090
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.29), libceres1, libgcc-s1 (>= 4.0), libgoogle-glog0v5, libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-all-dev, libceres-dev, libeigen3-dev, libopencv-contrib-dev, libopencv-dev, ros-noetic-cmake-modules, ros-noetic-cv-bridge, ros-noetic-ov-core, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-ov-init_2.7.0-0focal_amd64.deb
+Size: 531960
+MD5sum: ade64a7a860e59389ec54a8d336763d2
+SHA1: 0b74f257a1b028512c6525cfbba66c43230e2495
+SHA256: 4e856af43128a260a065477f0ee1042c38e475e8bd546cc2d537a2b765d2bb0e
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Initialization package which handles static and dynamic initialization.
+
+Package: ros-noetic-ov-msckf
+Version: 2.7.0-0focal
+Architecture: amd64
+Maintainer: Patrick Geneva <pgeneva@udel.edu>
+Installed-Size: 4859
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-contrib4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-features2d4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-all-dev, libceres-dev, libeigen3-dev, libopencv-contrib-dev, libopencv-dev, ros-noetic-cmake-modules, ros-noetic-cv-bridge, ros-noetic-geometry-msgs, ros-noetic-image-transport, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-ov-core, ros-noetic-ov-init, ros-noetic-rosbag, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-ov-msckf_2.7.0-0focal_amd64.deb
+Size: 1038224
+MD5sum: f797bcec5d434010fc89c5e60b1b00b2
+SHA1: c3ba042f1713786be164a212ee2d6102aa336396
+SHA256: d7ea08dae2a5708cd5670e5c9abf0ed32b6ee4d723f8eed8e235edc30d7e3948
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Implementation of a type-based error-state Kalman filter.
+
 Package: ros-noetic-pairs-bumper
 Version: 1.0.4-0focal
 Architecture: amd64
@@ -312,6 +376,36 @@ SHA256: 21382c2c039faf24a53f85a75829e78757a5ab142c9aee3cecb17bbb423de613
 Section: misc
 Priority: optional
 Description: The PAIRS OctoMap tools package
+
+Package: ros-noetic-pairs-open-vins-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 4605
+Depends: ros-noetic-cmake-modules, ros-noetic-ov-core, ros-noetic-ov-eval, ros-noetic-ov-init, ros-noetic-ov-msckf, ros-noetic-pairs-open-vins-estimator-plugin, ros-noetic-pairs-vins-imu-filter, ros-noetic-pairs-vins-kickoff-estimator-plugin, ros-noetic-pairs-vins-republisher
+Filename: pool/noetic/main/ros-noetic-pairs-open-vins-core_1.0.0-0focal_amd64.deb
+Size: 831172
+MD5sum: 7c6efb547852db1cb5d8efa615a4f32c
+SHA1: fc28afceec7bca83c8eecaee1f783dd13241f0b6
+SHA256: 0dbcd7c8e380e751864c7f5a353b3fdbf4f1927770e50ff552d4fe122e988da9
+Section: misc
+Priority: optional
+Description: The PAIRS open_vins core metapackage
+
+Package: ros-noetic-pairs-open-vins-estimator-plugin
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 322
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-open-vins-estimator-plugin_1.0.0-0focal_amd64.deb
+Size: 59204
+MD5sum: 1878dae6e2bee9816fca132cb757d6f7
+SHA1: d7528e93eee8bb1be705dc07a260f4721d2b64c4
+SHA256: eec8aca36f91c366721372fc216d348bf5d5b56cce8bfa6f3948c8f66b5aa264
+Section: misc
+Priority: optional
+Description: PAIRS open_vins state estimator plugin
 
 Package: ros-noetic-pairs-pcl-tools
 Version: 1.0.0-0focal
@@ -672,4 +766,49 @@ SHA256: 707aaa26ec076ca7192fd764d982586d5c9cb21cf2e568959c68b5c9d10bab57
 Section: misc
 Priority: optional
 Description: The PAIRS Utils metapackage
+
+Package: ros-noetic-pairs-vins-imu-filter
+Version: 0.1.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 292
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-roscpp, ros-noetic-tf2, ros-noetic-tf2-ros
+Filename: pool/noetic/main/ros-noetic-pairs-vins-imu-filter_0.1.0-0focal_amd64.deb
+Size: 71808
+MD5sum: 581a8b22fdb6d3cb4de460344290ab86
+SHA1: 1ef2adca6c89599275576075867c8fe5bb1553cf
+SHA256: d1480c1cc071f391e28f8649be8293c2ddf6ccc1af08d95310b157007d565636
+Section: misc
+Priority: optional
+Description: The pairs_vins_imu_filter package
+
+Package: ros-noetic-pairs-vins-kickoff-estimator-plugin
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 747
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-vins-kickoff-estimator-plugin_1.0.0-0focal_amd64.deb
+Size: 123048
+MD5sum: 14379eccf565d970af5c89530edbd0c1
+SHA1: 027e7bd5b2b282f8ef331b59ba1d7d753951971d
+SHA256: c6296406c92cc091f49e1e23dde8f4cbb9bab856b78679ca43533c08456b5f17
+Section: misc
+Priority: optional
+Description: PAIRS vins_kickoff state estimator plugin
+
+Package: ros-noetic-pairs-vins-republisher
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 335
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-roscpp, ros-noetic-tf2, ros-noetic-tf2-ros
+Filename: pool/noetic/main/ros-noetic-pairs-vins-republisher_0.0.0-0focal_amd64.deb
+Size: 78516
+MD5sum: 99683eed0ab353ea68b590fc6017d689
+SHA1: f46f33bd322ceb55f83d603e873c4aa2b1c7f1fc
+SHA256: e13d43241624c8aa79f19f307d7654ae1717b1722c0fe642f9ca0479d61729a0
+Section: misc
+Priority: optional
+Description: The pairs_vins_republisher package
 
