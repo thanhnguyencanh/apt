@@ -44,6 +44,21 @@ Priority: optional
 Homepage: https://github.com/ethz-asl/mav_comm
 Description: Package containing messages for communicating with rotary wing MAVs
 
+Package: ros-noetic-mavlink-sitl-gazebo
+Version: 1.13.2-0focal
+Architecture: amd64
+Maintainer: Lorenz Meier <lorenz@px4.io>
+Installed-Size: 5209
+Depends: libboost-thread1.71.0, libc6 (>= 2.29), libgazebo11 (>= 11.15.1), libgcc-s1 (>= 3.0), libignition-math6 (>= 6.15.1), libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libprotobuf17, libsdformat9 (>= 9.10.1), libstdc++6 (>= 9), libeigen3-dev, libopencv-dev, libprotobuf-dev, libprotoc-dev, protobuf-compiler, ros-noetic-gazebo-plugins, ros-noetic-gazebo-ros, ros-noetic-geometry-msgs, ros-noetic-mavlink, ros-noetic-mavros, ros-noetic-mavros-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-mavlink-sitl-gazebo_1.13.2-0focal_amd64.deb
+Size: 670580
+MD5sum: 505055b7c1d7d255cd4af15015bb58fc
+SHA1: 3176901e9550025fb819c09f791fb147c36d0c96
+SHA256: db48256d747ee1075b37257585a99ee8bcc026a1d035589a2610aeaa9b6c46ad
+Section: misc
+Priority: optional
+Description: The mavlink_sitl_gazebo package
+
 Package: ros-noetic-nimbro-cam-transport
 Version: 0.0.1-0focal
 Architecture: amd64
@@ -768,6 +783,36 @@ Section: misc
 Priority: optional
 Description: The PAIRS UAV Core metapackage
 
+Package: ros-noetic-pairs-uav-gazebo-simulation
+Version: 1.0.3-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 39237
+Depends: python3-jinja2, ros-noetic-cmake-modules, ros-noetic-gazebo-ros, ros-noetic-mavlink-sitl-gazebo, ros-noetic-mavros-msgs, ros-noetic-message-runtime, ros-noetic-pairs-gazebo-common-resources, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-gazebo-testing, ros-noetic-pairs-uav-px4-api, ros-noetic-px4, ros-noetic-rospy, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-gazebo-simulation_1.0.3-0focal_amd64.deb
+Size: 5457364
+MD5sum: 6d870a2a8c2e3c3ad4aebfc556a5f0b1
+SHA1: 14d556cf83b74d482fc2bbb5217373f9d4b00c7f
+SHA256: 561f6411844be1b7bde803c8fa49fbb2c39a0cfb5eb92baf23323d2d2f5c7c70
+Section: misc
+Priority: optional
+Description: The Metapackage for PAIRS UAV Gazebo simulation pipeline.
+
+Package: ros-noetic-pairs-uav-gazebo-testing
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 640
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-cmake-modules, ros-noetic-gazebo-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-testing, ros-noetic-roscpp, ros-noetic-rostest
+Filename: pool/noetic/main/ros-noetic-pairs-uav-gazebo-testing_1.0.0-0focal_amd64.deb
+Size: 100344
+MD5sum: ee007c85598e19d937fd9c38bc2f9599
+SHA1: c3ad6011b687332859f89d6f3354a5b53a3529ae
+SHA256: 23e8605f1bb4b930d99b708ddd42ac5bce4cf0fd4a8e46c75c9e44db3afdf800
+Section: misc
+Priority: optional
+Description: The pairs_uav_gazebo_testing package
+
 Package: ros-noetic-pairs-uav-hw-api
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -1007,4 +1052,20 @@ SHA256: 8792b1dca51f4899a147e55892de92af75ce899c9c3ca2dc957cd7c23ae66149
 Section: misc
 Priority: optional
 Description: TODO
+
+Package: ros-noetic-px4
+Version: 1.13.2-0focal
+Architecture: amd64
+Maintainer: Lorenz Meier <lorenz@px4.io>
+Installed-Size: 213726
+Depends: libc6 (>= 2.29), libstdc++6 (>= 5.2), ros-noetic-libmavconn, ros-noetic-mav-msgs, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-tf
+Filename: pool/noetic/main/ros-noetic-px4_1.13.2-0focal_amd64.deb
+Size: 67946108
+MD5sum: d7d05c9269cb3a4ad5f377181953258a
+SHA1: 9a738b2aa66fb673c5ff8913ab4f81cdc0b5fcc7
+SHA256: 3542615b7497d1a221edff7c53eaf0027fd909ced4a8101a415b32d853082142
+Section: misc
+Priority: optional
+Homepage: http://px4.io/ros
+Description: The PX4 Flight Stack package
 
