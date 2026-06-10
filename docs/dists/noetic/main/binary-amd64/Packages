@@ -1,3 +1,183 @@
+Package: ros-noetic-nimbro-cam-transport
+Version: 0.0.1-0focal
+Architecture: amd64
+Maintainer: Max Schwarz <max.schwarz@uni-bonn.de>
+Installed-Size: 196
+Depends: libavcodec58 (>= 7:4.2), libavutil56 (>= 7:4.0), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 5.2), libswscale5 (>= 7:4.0), libx264-155, ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, libx264-dev, ros-noetic-cv-bridge, ros-noetic-image-transport, ros-noetic-roscpp, ros-noetic-rostest
+Filename: pool/noetic/main/ros-noetic-nimbro-cam-transport_0.0.1-0focal_amd64.deb
+Size: 44940
+MD5sum: 5ca9710f441f5460828f084bda59d697
+SHA1: 477347e74d1c4b32dd2c473dc84be640f72001a7
+SHA256: 78b4dae3edd7fccd0422fa44d4e8bb7f0991623f7a4c55fe461bf46bca2a7c6f
+Section: misc
+Priority: optional
+Description: Network transport for camera images
+
+Package: ros-noetic-nimbro-log-transport
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Max Schwarz <max.schwarz@uni-bonn.de>
+Installed-Size: 361
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-roscpp, ros-noetic-rosgraph-msgs
+Filename: pool/noetic/main/ros-noetic-nimbro-log-transport_1.0.0-0focal_amd64.deb
+Size: 63108
+MD5sum: e860fdb28fcd40f4e1adfa1e7a78c040
+SHA1: 1fc6697b2f4eb03c85c1764b34dd3c2d7336f9f3
+SHA256: 8192385b1ee62971f5ceee9244b852522ab0bf807a90ffb1ce400205087cd938
+Section: misc
+Priority: optional
+Description: Handles transport of log messages over unreliable connections
+
+Package: ros-noetic-nimbro-net-monitor
+Version: 0.0.1-0focal
+Architecture: amd64
+Maintainer: Max Schwarz <max.schwarz@ais.uni-bonn.de>
+Installed-Size: 471
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libqt5widgets5, ros-noetic-roscpp, ros-noetic-rqt-gui, ros-noetic-rqt-gui-cpp
+Filename: pool/noetic/main/ros-noetic-nimbro-net-monitor_0.0.1-0focal_amd64.deb
+Size: 70088
+MD5sum: 097df3657f764807f8a4f40dd91d5633
+SHA1: 5edc27d1f2f69eee177c46c6461f48e6d353da1b
+SHA256: 1c5917d113023c4aec19c239ca60856c12959c0a2fc11e4a6c8e7879e905f2f7
+Section: misc
+Priority: optional
+Description: Monitors roscore and network usage
+
+Package: ros-noetic-nimbro-network
+Version: 2.0.0-0focal
+Architecture: amd64
+Maintainer: Max Schwarz <max.schwarz@uni-bonn.de>
+Installed-Size: 28
+Depends: ros-noetic-nimbro-cam-transport, ros-noetic-nimbro-log-transport, ros-noetic-nimbro-net-monitor, ros-noetic-nimbro-service-transport, ros-noetic-nimbro-tf-throttle, ros-noetic-nimbro-topic-transport
+Filename: pool/noetic/main/ros-noetic-nimbro-network_2.0.0-0focal_amd64.deb
+Size: 4704
+MD5sum: ad1cacb79003c172426e81dfb5f9f0b4
+SHA1: 4052a34ba2e27b634ec3d38d855a4252b3b0a22e
+SHA256: 67a890b1f4a14e9a1b6bc001bc42fd045c2cf2840e8bf6909e129061a12fe8fe
+Section: misc
+Priority: optional
+Description: nimbro_network metapackage
+
+Package: ros-noetic-nimbro-service-transport
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Max Schwarz <max.schwarz@uni-bonn.de>
+Installed-Size: 764
+Depends: libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libqt5widgets5, ros-noetic-catch-ros, ros-noetic-roscpp, ros-noetic-rqt-gui, ros-noetic-rqt-gui-cpp, ros-noetic-std-srvs, ros-noetic-topic-tools
+Filename: pool/noetic/main/ros-noetic-nimbro-service-transport_1.0.0-0focal_amd64.deb
+Size: 139476
+MD5sum: b5b31727079d800dcc03c69b234bb1ec
+SHA1: be0f53b62aa7cc1a0e939009c5dd500d44aecc8c
+SHA256: 680a3e176a1394d78e6067dad86ccdf5c6a93d150811f5f4ddc9caa41be01f7f
+Section: misc
+Priority: optional
+Description: Calls services on a different master with minimal latency
+
+Package: ros-noetic-nimbro-tf-throttle
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Max Schwarz <max.schwarz@uni-bonn.de>
+Installed-Size: 133
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-roscpp, ros-noetic-tf
+Filename: pool/noetic/main/ros-noetic-nimbro-tf-throttle_1.0.0-0focal_amd64.deb
+Size: 32988
+MD5sum: 2d466213d85179816a467f99418c5534
+SHA1: 22c925cc74a9c93ebab3b3eaa194410ffb8305ff
+SHA256: e8e621aec85818acf1cb5e190c4d7ebddefec3cf3b6fd69665e5207058810a90
+Section: misc
+Priority: optional
+Description: Throttles TF output down to bandwidth suitable for wifi
+
+Package: ros-noetic-nimbro-topic-transport
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Max Schwarz <max.schwarz@uni-bonn.de>
+Installed-Size: 995
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libstdc++6 (>= 7), libzstd1 (>= 1.3.2), libqt5widgets5, libyaml-cpp-dev, libzstd-dev, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-rqt-gui, ros-noetic-rqt-gui-cpp, ros-noetic-topic-tools
+Filename: pool/noetic/main/ros-noetic-nimbro-topic-transport_1.0.0-0focal_amd64.deb
+Size: 185772
+MD5sum: 4c85a30fa79e43493c22a9603c05e038
+SHA1: 0eb49280299ecaafc92a7adf6e8b736260c627e5
+SHA256: 3b2ae7909ccf32d9c3fce2da637ba6ce6e06c6c355db76a00641bb46d8806ab6
+Section: misc
+Priority: optional
+Description: Contains nodes for TCP/UDP communication between ROS masters
+
+Package: ros-noetic-ouster-ros
+Version: 0.5.2-0focal
+Architecture: amd64
+Maintainer: ouster developers <oss@ouster.io>
+Installed-Size: 1339
+Depends: libc6 (>= 2.15), libconsole-bridge0.4, libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 3.0), libjsoncpp1 (>= 1.7.4), libpcl-common1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2-ros, ros-noetic-topic-tools
+Filename: pool/noetic/main/ros-noetic-ouster-ros_0.5.2-0focal_amd64.deb
+Size: 278468
+MD5sum: 690836e17b80ac875bd27baf573fd2bf
+SHA1: 69881ded090f56c895e7f88e6dcc1422cf7cce57
+SHA256: a23b09c8ad42c3168f21e8bc5994c97f929ab032812edfb77decae6cc65a4411
+Section: misc
+Priority: optional
+Description: Ouster ROS driver
+
+Package: ros-noetic-pairs-bumper
+Version: 1.0.4-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1155
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-highgui4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libpcl-common1.10 (>= 1.10.0+dfsg), libpcl-filters1.10 (>= 1.10.0+dfsg), libpcl-segmentation1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-cv-bridge, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-image-geometry, ros-noetic-image-transport, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pcl-conversions, ros-noetic-pcl-msgs, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf2-geometry-msgs, ros-noetic-tf2-ros
+Filename: pool/noetic/main/ros-noetic-pairs-bumper_1.0.4-0focal_amd64.deb
+Size: 237184
+MD5sum: 90f4be231fa9b337dd95a7a9165cb5d7
+SHA1: db95ab8153156e5a78128aeffbbcc19b8944aa86
+SHA256: 56f7c4800d38bbf9df9db3468fb7d6e0f2010b858a4d0aef957f8beebed3e1fa
+Section: misc
+Priority: optional
+Description: Program for publishing bumper messages for reactive collision avoidance
+
+Package: ros-noetic-pairs-camera-republisher
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 469
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-image-transport, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-camera-republisher_1.0.0-0focal_amd64.deb
+Size: 87372
+MD5sum: 73952c859539b0ef82330daef5bc97ba
+SHA1: e91101aec6af4656edbb922d7af6e17b7b6827db
+SHA256: 51bf7244b581764980820ec28f27432ea0ccef0d142b968ab77287ec0f3ba69b
+Section: misc
+Priority: optional
+Description: PAIRS Camera republisher
+
+Package: ros-noetic-pairs-circle-flier
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 586
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-circle-flier_1.0.0-0focal_amd64.deb
+Size: 117588
+MD5sum: 097aede26ee2c39a5c34dd3b1fab846e
+SHA1: 3e84c5d165a005bd75811d246df45052c93f4562
+SHA256: beff7982c1265b156a7991e599c149230e9cbafeed2b8679c55d2c5ee3dc938f
+Section: misc
+Priority: optional
+Description: The PAIRS Circle Flier package
+
+Package: ros-noetic-pairs-euler-counter-example
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 467
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-tf2
+Filename: pool/noetic/main/ros-noetic-pairs-euler-counter-example_1.0.0-0focal_amd64.deb
+Size: 96220
+MD5sum: f4211f4add9e356cf98dd3cf92d5a9f8
+SHA1: 2f54408aff4343ad5eafb896dc2ee3a025a5f546
+SHA256: 8a2b71f6760db9c62e15644d0017c4171afb56c91bcd73e3e85b2358f3249300
+Section: misc
+Priority: optional
+Description: The Euler Counter-Example package
+
 Package: ros-noetic-pairs-lib
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -12,6 +192,21 @@ SHA256: beaf6297f49873e6b1426b35e33e48437f3d2d6bc3cf11bd9f5bd4ab625a2f93
 Section: misc
 Priority: optional
 Description: PAIRS shared C++ library — attitude math, filters, parameter loading, geometry utilities, transformations
+
+Package: ros-noetic-pairs-modules-msgs
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1758
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs
+Filename: pool/noetic/main/ros-noetic-pairs-modules-msgs_1.0.0-0focal_amd64.deb
+Size: 123232
+MD5sum: 55cbda2ddc9371f51d346ee95c7fde6f
+SHA1: c7c2bf2d23bf7d924e377c9fd82e762299392321
+SHA256: d55d3de31c956c4735551341737be05d06833978ea28b778bf411e2cb79a90f1
+Section: misc
+Priority: optional
+Description: The pairs_modules_msgs package
 
 Package: ros-noetic-pairs-msgs
 Version: 1.0.0-0focal
@@ -28,6 +223,21 @@ Section: misc
 Priority: optional
 Description: PAIRS UAV custom ROS message and service definitions
 
+Package: ros-noetic-pairs-multireconfigure
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 31
+Depends: ros-noetic-cmake-modules, ros-noetic-ddynamic-reconfigure, ros-noetic-ddynamic-reconfigure-python, ros-noetic-dynamic-reconfigure, ros-noetic-message-runtime, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-rospy
+Filename: pool/noetic/main/ros-noetic-pairs-multireconfigure_1.0.0-0focal_amd64.deb
+Size: 5028
+MD5sum: 1f1bc7aba1e4ab9243264048de168a74
+SHA1: b62e3b0dff33afbb217fde6b15dedc77d78004ed
+SHA256: 8c25f732513d23bbed9367e9eed9dd8fa219a0d921aa36676138df148d92f2a9
+Section: misc
+Priority: optional
+Description: A package for dynamic reconfiguration of multiple nodes at the same time
+
 Package: ros-noetic-pairs-multirotor-simulator
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -43,6 +253,81 @@ Section: misc
 Priority: optional
 Description: The PAIRS Multirotor simulator
 
+Package: ros-noetic-pairs-octomap-mapping-planning
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 88
+Depends: ros-noetic-cmake-modules, ros-noetic-pairs-octomap-planner, ros-noetic-pairs-octomap-server, ros-noetic-pairs-octomap-tools, ros-noetic-pairs-subt-planning-lib, ros-noetic-rospy
+Filename: pool/noetic/main/ros-noetic-pairs-octomap-mapping-planning_1.0.0-0focal_amd64.deb
+Size: 13072
+MD5sum: 770fd3448e73332a1e540a80fe8d87eb
+SHA1: 4274a346cd61b890811323987024ce2a4b2198d7
+SHA256: 8ed1625174fd56e3ed1a1d545f43e14e938f2fc0bae5c0375ba6d257f99ba389
+Section: misc
+Priority: optional
+Description: PAIRS Octomap Mapping Planning
+
+Package: ros-noetic-pairs-octomap-planner
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1579
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-dynamic-edt-3d, ros-noetic-octomap, ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-octomap-msgs, ros-noetic-octomap-ros, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-pairs-octomap-tools, ros-noetic-pairs-subt-planning-lib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-octomap-planner_1.0.0-0focal_amd64.deb
+Size: 310064
+MD5sum: bb673538bd3eb987411c878bb8e8da05
+SHA1: ca2231be4adf3437f67d5a7f2ee8ba372c03b946
+SHA256: 23b8ba9f01a2a68b677a32f1ad329d1b6ad7f9c4f476878ab33c45d4130056b1
+Section: misc
+Priority: optional
+Description: The Octomap Planner package
+
+Package: ros-noetic-pairs-octomap-server
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 969
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libpcl-common1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-octomap, ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-laser-geometry, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-octomap-msgs, ros-noetic-octomap-ros, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-octomap-tools, ros-noetic-pcl-conversions, ros-noetic-pcl-msgs, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-octomap-server_1.0.0-0focal_amd64.deb
+Size: 209436
+MD5sum: 6c5d5367c1f2f3c2af07b497ad3b14b1
+SHA1: f4eac3745e487f5d058c6ad67d13bd01c3901612
+SHA256: 7327823e16216af401e4dec746747e93a523a18e0844cb9ca2ffbff4ef125506
+Section: misc
+Priority: optional
+Description: PAIRS OctoMap Server
+
+Package: ros-noetic-pairs-octomap-tools
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1872
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-octomap, ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-octomap-msgs, ros-noetic-octomap-ros, ros-noetic-pairs-lib, ros-noetic-pcl-conversions, ros-noetic-pcl-msgs, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-octomap-tools_1.0.0-0focal_amd64.deb
+Size: 328480
+MD5sum: 4d294a56e6e7bc3c38fb066062041be5
+SHA1: 29ccd7daea50f80b5c7e96004884f64b321c00e6
+SHA256: 21382c2c039faf24a53f85a75829e78757a5ab142c9aee3cecb17bbb423de613
+Section: misc
+Priority: optional
+Description: The PAIRS OctoMap tools package
+
+Package: ros-noetic-pairs-pcl-tools
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 7195
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 4.0), liblz4-1 (>= 0.0~r130), libpcl-common1.10 (>= 1.10.0+dfsg), libpcl-features1.10 (>= 1.10.0+dfsg), libpcl-io1.10 (>= 1.10.0+dfsg), libpcl-segmentation1.10 (>= 1.10.0+dfsg), libqhull7, libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-eigen-conversions, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-ouster-ros, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-pcl-tools_1.0.0-0focal_amd64.deb
+Size: 1297076
+MD5sum: 3e1b7b17d5729f974ca30104d800076b
+SHA1: e5bf0bf8f3c09f6f41e3cb248df2cd282c6ac803
+SHA256: 8622b2362ebde5471257ca7762823950070623fd16dd662907a27980c33823b8
+Section: misc
+Priority: optional
+Description: Pointcloud tools package
+
 Package: ros-noetic-pairs-rviz-plugins
 Version: 1.0.4-0focal
 Architecture: amd64
@@ -57,6 +342,126 @@ SHA256: a79a1bd22256ee8c0dc0753ced5159ef1bc57502d5d9ee9390d623631aab731f
 Section: misc
 Priority: optional
 Description: Plugin for rviz to work with the PAIRS system
+
+Package: ros-noetic-pairs-sensor-info
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 141
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-sensor-info_1.0.0-0focal_amd64.deb
+Size: 37584
+MD5sum: 5610c15d711aecedb64dc46c646eef85
+SHA1: 65d257c6b7143fef4544de03734217947637351a
+SHA256: de89413a2c3722df12fb579b1edf876108b58244f9c5aa6421c9bc17a45196b1
+Section: misc
+Priority: optional
+Description: The PAIRS Sensor Info package
+
+Package: ros-noetic-pairs-serial
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 2436
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-serial_1.0.0-0focal_amd64.deb
+Size: 388676
+MD5sum: f6b4f9bf118643703b648ad4bfd80c9d
+SHA1: 57fa084a6954715a9bfab8d3c796410e9637d63d
+SHA256: 60d7d9b74aa66ddf949e54656a13fab4cdeda017fc220d4715b94979458ba676
+Section: misc
+Priority: optional
+Description: driver for reading messages from serial line
+
+Package: ros-noetic-pairs-subt-planning-lib
+Version: 0.0.3-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 343
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libpcl-common1.10 (>= 1.10.0+dfsg), libpcl-io1.10 (>= 1.10.0+dfsg), libpcl-kdtree1.10 (>= 1.10.0+dfsg), libpcl-octree1.10 (>= 1.10.0+dfsg), libpcl-segmentation1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 5.2), ros-noetic-octomap, libpcl-dev, ros-noetic-cmake-modules, ros-noetic-octomap-msgs, ros-noetic-octomap-ros, ros-noetic-pairs-lib, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Filename: pool/noetic/main/ros-noetic-pairs-subt-planning-lib_0.0.3-0focal_amd64.deb
+Size: 105960
+MD5sum: 8f5af382f9d56116f4b85677edcb85d9
+SHA1: 27504c35c6062cda3120b669c916358fd6ea8719
+SHA256: 81d1308d57625476c868490f316abd244424c9934c4c6ff624bba93bc545cf52
+Section: misc
+Priority: optional
+Description: Package for planning in darpa SubT challenge
+
+Package: ros-noetic-pairs-tf-connector
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 290
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-ddynamic-reconfigure, ros-noetic-dynamic-reconfigure, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-tf2, ros-noetic-tf2-ros, ros-noetic-tf2-sensor-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-tf-connector_1.0.0-0focal_amd64.deb
+Size: 77156
+MD5sum: 5921821ac1e6191aa0f72aafe21daa22
+SHA1: 3cd77f055e1b1ec93857753aa85858da19c742e9
+SHA256: 65ebb5cc4a4e72e9b4f53e99daa6d5ac7e507de49c0860080ae1d25338849716
+Section: misc
+Priority: optional
+Description: A package for connecting two transform trees via root frames
+
+Package: ros-noetic-pairs-tf-estimator
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 68
+Depends: ros-noetic-cmake-modules, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-rospy
+Filename: pool/noetic/main/ros-noetic-pairs-tf-estimator_1.0.0-0focal_amd64.deb
+Size: 9356
+MD5sum: 7c4a677a62dc0226c9b46a12df6664a8
+SHA1: 9813d3111835199521d2f62737f2defaf2385aef
+SHA256: a31582a2e83448a3d6c889973a69dbb94e36df2ba1b98c97207f085bde1fca3a
+Section: misc
+Priority: optional
+Description: The pairs_tf_estimator package
+
+Package: ros-noetic-pairs-tf-mirror
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 307
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-tf2, ros-noetic-tf2-ros
+Filename: pool/noetic/main/ros-noetic-pairs-tf-mirror_1.0.0-0focal_amd64.deb
+Size: 77152
+MD5sum: fa4f1fa2c69d4c245e03e8d057446390
+SHA1: 07796bd6b86f136492c48631dac66c3188bbb97c
+SHA256: 496e2d1a2d679aaf21033fef5e86376d9c852394290061865346ac4bfed8ec7b
+Section: misc
+Priority: optional
+Description: The TF Mirror package
+
+Package: ros-noetic-pairs-tf-reconfigure
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 485
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf2, ros-noetic-tf2-ros, ros-noetic-tf2-sensor-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-tf-reconfigure_1.0.0-0focal_amd64.deb
+Size: 105740
+MD5sum: 498b8530e38e426fbd0dfdaf69c717c6
+SHA1: 27dcc461721433d8cd401c3ff4e6aa14bb10a094
+SHA256: 8ff57164d824ddb6ae4e675b740a2703963709e58f4f9fe2d98162af5f6f85a9
+Section: misc
+Priority: optional
+Description: The pairs_tf_reconfigure package
+
+Package: ros-noetic-pairs-throw-activation
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 351
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-throw-activation_1.0.0-0focal_amd64.deb
+Size: 71744
+MD5sum: 05381dd52eb75c70a9a87e45f840047e
+SHA1: b44fcfb6000496b8e3af04f24407b1a4ebb54080
+SHA256: 187bfad57e88b9d84ee3fa60d478f71f3b17dac5433a63ec75415613269588a5
+Section: misc
+Priority: optional
+Description: The PAIRS Throw Activation package
 
 Package: ros-noetic-pairs-uav-autostart
 Version: 1.0.4-0focal
@@ -133,6 +538,36 @@ Section: misc
 Priority: optional
 Description: The pairs_uav_managers package
 
+Package: ros-noetic-pairs-uav-modules
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 29
+Depends: ros-noetic-cmake-modules, ros-noetic-nimbro-network, ros-noetic-pairs-bumper, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-pcl-tools, ros-noetic-pairs-serial, ros-noetic-pairs-uav-path-loader, ros-noetic-pairs-uav-trajectory-loader, ros-noetic-pairs-utils
+Filename: pool/noetic/main/ros-noetic-pairs-uav-modules_1.0.0-0focal_amd64.deb
+Size: 4828
+MD5sum: b8dd9f114952cdc01539274244c205e2
+SHA1: cada3616c1689eee570f3facf03134c0826b2612
+SHA256: b569eb9de13d31b70476a8b200222ebdf46c405448b251dd8fc8e7234c5fe264
+Section: misc
+Priority: optional
+Description: The PAIRS UAV Modules metapackage
+
+Package: ros-noetic-pairs-uav-path-loader
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 174
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-uav-path-loader_1.0.0-0focal_amd64.deb
+Size: 47940
+MD5sum: 1f8fba82f9b9f7377900909d687e44c3
+SHA1: 070dc633bbdeab6a2d767a11689cfa0d0c1ae32a
+SHA256: 98dd2a6ee00fa1d633ce06ed1fcd2188a5195a4749b6ce8e0bd28b8b6863473f
+Section: misc
+Priority: optional
+Description: The Path Loader package
+
 Package: ros-noetic-pairs-uav-state-estimators
 Version: 0.0.3-0focal
 Architecture: amd64
@@ -207,4 +642,34 @@ SHA256: b7a9e830cbfb64c5a3d500c48f98738ccf3d92585db3c78aabc01c2e0783a134
 Section: misc
 Priority: optional
 Description: UAV trajectory generation
+
+Package: ros-noetic-pairs-uav-trajectory-loader
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 267
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-trajectory-loader_1.0.0-0focal_amd64.deb
+Size: 80252
+MD5sum: 860da41121f459febc900e608fdc24e3
+SHA1: 1b87e11cbfd50cb87ba34475003b086aa56b8bc7
+SHA256: 5436ca93b81518d8c5fd15373a51fe310454a513fa2be585bbcd2ea3cf807890
+Section: misc
+Priority: optional
+Description: A package for loading trajectories and calling multiple trigger messages.
+
+Package: ros-noetic-pairs-utils
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 28
+Depends: ros-noetic-cmake-modules, ros-noetic-pairs-camera-republisher, ros-noetic-pairs-circle-flier, ros-noetic-pairs-euler-counter-example, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-pairs-multireconfigure, ros-noetic-pairs-sensor-info, ros-noetic-pairs-tf-connector, ros-noetic-pairs-tf-estimator, ros-noetic-pairs-tf-mirror, ros-noetic-pairs-tf-reconfigure, ros-noetic-pairs-throw-activation
+Filename: pool/noetic/main/ros-noetic-pairs-utils_1.0.0-0focal_amd64.deb
+Size: 4884
+MD5sum: cc24c3648857af8b967d109a79b673ab
+SHA1: b780d12d8023eea477ac0d8c9f0339eca56577f3
+SHA256: 707aaa26ec076ca7192fd764d982586d5c9cb21cf2e568959c68b5c9d10bab57
+Section: misc
+Priority: optional
+Description: The PAIRS Utils metapackage
 
