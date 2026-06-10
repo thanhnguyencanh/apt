@@ -94,6 +94,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_multirotor_simulator/#jazzy
 Description: The PAIRS Multirotor simulator
 
+Package: ros-jazzy-pairs-octomap-mapping-planning
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 140
+Depends: ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-octomap-rviz-plugins, ros-jazzy-pairs-octomap-planner, ros-jazzy-pairs-octomap-server
+Filename: pool/jazzy/main/ros-jazzy-pairs-octomap-mapping-planning_2.0.0-0noble_amd64.deb
+Size: 15482
+MD5sum: 0202d0c6f829962017c86920c5eecad8
+SHA1: 88ed650dfcf058c59d13db778ae03a0f49ae91dd
+SHA256: 3006663ea99aa0692eee341ea8266c4f486a72ded4a27616ae145a683612371b
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_octomap_mapping_planning/#jazzy
+Description: PAIRS Octomap Mapping Planning
+
 Package: ros-jazzy-pairs-octomap-planner
 Version: 1.0.0-0noble
 Architecture: amd64
@@ -141,6 +157,38 @@ Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_odometry_republisher/#jazzy
 Description: pairs_odometry_republisher
+
+Package: ros-jazzy-pairs-open-vins-estimator-plugin
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 1435
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pairs-lib, ros-jazzy-pairs-uav-managers, ros-jazzy-pairs-uav-state-estimators, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components
+Filename: pool/jazzy/main/ros-jazzy-pairs-open-vins-estimator-plugin_2.0.0-0noble_amd64.deb
+Size: 138520
+MD5sum: 2020e42c54e74219869bc6f4c073f565
+SHA1: 1f9656e830b0e878ce8ca2731f94d62f37eb1524
+SHA256: f9cec242f976ed69ffc93715fd76f17b288130b14f0df75a9bb24990f96ecc2a
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_open_vins_estimator_plugin/#jazzy
+Description: PAIRS open_vins state estimator plugin
+
+Package: ros-jazzy-pairs-point-lio-estimator-plugin
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 1429
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pairs-lib, ros-jazzy-pairs-uav-managers, ros-jazzy-pairs-uav-state-estimators, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components
+Filename: pool/jazzy/main/ros-jazzy-pairs-point-lio-estimator-plugin_2.0.0-0noble_amd64.deb
+Size: 142656
+MD5sum: ed888ce03b106124f6fa8c8862d1b575
+SHA1: e43c9a9950c92e3cf3a7f3bc1373cd8f905e163e
+SHA256: 0d9038b78131c1ff2000073225abe5fe7123f022ed7008b5ab06735ea50ffcc0
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_point_lio_estimator_plugin/#jazzy
+Description: PAIRS Point LIO state estimator plugin
 
 Package: ros-jazzy-pairs-rviz-plugins
 Version: 2.0.0-0noble
@@ -302,6 +350,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_uav_managers/#jazzy
 Description: PAIRS UAV Managers
 
+Package: ros-jazzy-pairs-uav-modules
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 41
+Depends: ros-jazzy-pairs-modules-msgs, ros-jazzy-pairs-rviz-plugins, ros-jazzy-pairs-serial, ros-jazzy-pairs-utils
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-modules_2.0.0-0noble_amd64.deb
+Size: 5022
+MD5sum: c1db58b03343f911a6b4f606a0a14f3a
+SHA1: 9fc37b896f3a055e78f012afa29f7789a2b18b73
+SHA256: 5f34a27cfe1f29a80c5ea18bd7855e36b4e3f8696afde0a2596df76181dbb444
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_modules/#jazzy
+Description: The PAIRS UAV Modules metapackage
+
 Package: ros-jazzy-pairs-uav-path-loader
 Version: 2.0.0-0noble
 Architecture: amd64
@@ -429,6 +493,22 @@ Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_vins_imu_filter/#jazzy
 Description: The pairs_vins_imu_filter package
+
+Package: ros-jazzy-pairs-vins-kickoff-estimator-plugin
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2196
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-pairs-uav-managers, ros-jazzy-pairs-uav-state-estimators, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components
+Filename: pool/jazzy/main/ros-jazzy-pairs-vins-kickoff-estimator-plugin_2.0.0-0noble_amd64.deb
+Size: 316646
+MD5sum: 179e19db1b2dfa020ae509d7f29e9b8f
+SHA1: ff5c84da5d6ec883e22f2154cae21cadb2779c09
+SHA256: 4586130eadfdf82371c5a47a2b811e705cc358f3217fc8ff307fc7e05c224820
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_vins_kickoff_estimator_plugin/#jazzy
+Description: PAIRS vins_kickoff state estimator plugin
 
 Package: ros-jazzy-pairs-vins-republisher
 Version: 0.0.0-0noble
