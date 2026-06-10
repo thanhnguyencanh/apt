@@ -500,10 +500,10 @@ Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
 Installed-Size: 67
 Depends: moreutils, ros-jazzy-builtin-interfaces, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-multirotor-simulator, ros-jazzy-pairs-uav-autostart, ros-jazzy-pairs-uav-controllers, ros-jazzy-pairs-uav-hw-api, ros-jazzy-pairs-uav-managers, ros-jazzy-pairs-uav-state-estimators, ros-jazzy-pairs-uav-status, ros-jazzy-pairs-uav-trackers, ros-jazzy-pairs-uav-trajectory-generation, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rmw-cyclonedds-cpp, ros-jazzy-rmw-zenoh-cpp, tmux, tmuxinator
 Filename: pool/jazzy/main/ros-jazzy-pairs-uav-core_2.0.0-0noble_amd64.deb
-Size: 9372
-MD5sum: 8e6956cd05b628eb03f6b81b76da2f56
-SHA1: 4ae0964bf53a4b7bc55b5533b8b1726f11ebf13d
-SHA256: 675a354493687deed1625000033a68b4ee65b40f1324b632b7449a4f21924ab8
+Size: 9360
+MD5sum: 32eb5cf2cf1b08a86889c0cfd11cf941
+SHA1: 2a4bfa0e917d1d71fcbb2565107115e78fa246b4
+SHA256: 099c6c850c2ea460d15c94a2a129059983d10d22c4a4eeec3366882d4d1b494d
 Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_uav_core/#jazzy
@@ -642,12 +642,12 @@ Version: 2.0.0-0noble
 Architecture: amd64
 Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
 Installed-Size: 3383
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libnlopt0 (>= 2.6.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nlopt, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libnlopt0 (>= 2.6.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libnlopt-cxx-dev, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs
 Filename: pool/jazzy/main/ros-jazzy-pairs-uav-trajectory-generation_2.0.0-0noble_amd64.deb
-Size: 655974
-MD5sum: bb8b94d3e2578b3bdddffb89c77bde67
-SHA1: f235f8e55aec2d96bf7bdd5608b63b64bcfc8d1f
-SHA256: d562849d6666b8320762ed6cbc1722c7a92d2df484e99fcc77ed6a45fe462046
+Size: 656014
+MD5sum: 1faca0dda8f6d0f4470c119796e2a78c
+SHA1: 4c86b196fd4f2f618a2c397bdaf5956462163968
+SHA256: a897d36c9dbc7c0f2fe1bc587951accbd6fa54c41ea4ac8399167808b52ee813
 Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_uav_trajectory_generation/#jazzy
