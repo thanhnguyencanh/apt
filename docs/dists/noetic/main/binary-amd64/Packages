@@ -272,6 +272,21 @@ Section: misc
 Priority: optional
 Description: The Euler Counter-Example package
 
+Package: ros-noetic-pairs-landing-pad-estimation
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 452
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-apriltag-ros, ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2, ros-noetic-tf2-ros
+Filename: pool/noetic/main/ros-noetic-pairs-landing-pad-estimation_1.0.0-0focal_amd64.deb
+Size: 127768
+MD5sum: 4125ec4c700f39dff0395d0c0f4a7bda
+SHA1: b2c530e4b85fd22140aea57b4218aa0f0f88dbad
+SHA256: 6cb252db697be43f0733b34f4f3716bed244aeb18bfedf98c3e014b69dbd0696
+Section: misc
+Priority: optional
+Description: pairs_landing_pad_estimation
+
 Package: ros-noetic-pairs-lib
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -511,6 +526,36 @@ SHA256: 280a310037d976520c31da125d57df9a01d65dd9eb36c37348468441778e7888
 Section: misc
 Priority: optional
 Description: PAIRS Point-LIO state estimator plugin
+
+Package: ros-noetic-pairs-precise-landing
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 653
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nodelet, ros-noetic-pairs-landing-pad-estimation, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-precise-landing_1.0.0-0focal_amd64.deb
+Size: 127696
+MD5sum: 48340b041c3764d06d14f306ae11017f
+SHA1: dfebd5bf969555567c7eefa952699338ca8e6304
+SHA256: 4c39eaed7e3f7f688a40f82e27b0762522a3308f7070d018868646644a29a4a8
+Section: misc
+Priority: optional
+Description: pairs_precise_landing
+
+Package: ros-noetic-pairs-precise-landing-gazebo
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 90
+Depends: ros-noetic-gazebo-ros
+Filename: pool/noetic/main/ros-noetic-pairs-precise-landing-gazebo_1.0.0-0focal_amd64.deb
+Size: 20268
+MD5sum: 5ee982c49a6b1a5df638de24bb6db9d5
+SHA1: 5573c3e29555e7cf6cedb85de55b1a19f2fe0fa3
+SHA256: a06d1723adb322a0b25e9fd7bb9f24010fba67922ab9e3db696fdc0650d73d0c
+Section: misc
+Priority: optional
+Description: pairs_precise_landing_gazebo
 
 Package: ros-noetic-pairs-rviz-plugins
 Version: 1.0.4-0focal
