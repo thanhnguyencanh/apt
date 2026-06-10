@@ -1,24 +1,24 @@
 Architectures: amd64
 Codename: jazzy
 Components: main
-Date: Wed, 10 Jun 2026 09:12:43 +0000
+Date: Wed, 10 Jun 2026 10:16:17 +0000
 Description: PAIRS Lab ROS packages (jazzy)
 Label: PAIRS Lab
 Origin: pairs-lab
 Suite: jazzy
 MD5Sum:
- e2ae29a3a7e2e8c9cfcef12eb160b016              184 Release
+ 8a7b5f9efe31ddf11ab460ef36cc6177              184 Release
  e745e8cd6c6330f5cfb1a4f36cb8c409             1912 main/binary-amd64/Packages
- 82194dd577b0f6d0cea46f74d194e1a1              889 main/binary-amd64/Packages.gz
+ e1201dbb9f54a9e6de0ae017f8160506              889 main/binary-amd64/Packages.gz
 SHA1:
- 6a54ee45def03149c6ee74cb8812bcaad5b42503              184 Release
+ 212e29d1460d74497e95643ffa9ccf23e4b65d45              184 Release
  0fd118dafa7715cf68ecfe9ca5839bdd8b2e6731             1912 main/binary-amd64/Packages
- bef87836bb42a9af2fa64de06ebecbf448e61834              889 main/binary-amd64/Packages.gz
+ 73b360e5da33dde88d97a1d8bf0310447f946dd5              889 main/binary-amd64/Packages.gz
 SHA256:
- 11babd1b4711223b04e31408575a0b9e1355ef9f956be81dad4c5472f4c8f3ab              184 Release
+ 376340d91a865fa49af4deb6bbf8db1b5b66fa9c2b10de65a464c7cb4acdaa93              184 Release
  a37ac267bfed2b59473dcff45b63ddf11c64f7dfd6ed42f4a5c208e0d75c33d9             1912 main/binary-amd64/Packages
- 6b6f3d2b28d5f09ffe4d1c01d82f528bcaac1668d77565c8fae50584952775b4              889 main/binary-amd64/Packages.gz
+ 3407bcc07460b7a4c74c7b9a9d651019bf66927929fb0fd7b813c6f101b8f32d              889 main/binary-amd64/Packages.gz
 SHA512:
- d41ea0518fceee8bcc5b81bb597af1112309565ce9726b96f39437f4fb364e082fc152c5e585b6047c83232f6d47451b07bab3268b4ea21eaf0597bab20f372c              184 Release
+ 6d417a6cddc0eef9734d85b0338a9d525904c9c65fa7a2e6ac4f3a6a8f13136a77d63ba684df136a89d8be10c0e57dd2e75df7da770214ba0c11af6094a7b1c0              184 Release
  4905ca61e5f852d26cb9aa2c895764e872820d93c7c18268901f0f636e6f1eaae7537181714094552982e71dfc16d33e30597764bdc1f7a98bbaf864a79f9904             1912 main/binary-amd64/Packages
- fe9f3a7af7c90624740b4a8260b42f22513fabbb15da52d5f477370a3a5acc05809b80c347f97520795a0b70f9c0a30d8270b372cdf42c2d33f8559049b788a9              889 main/binary-amd64/Packages.gz
+ 750bca0b9ed908659c3484cc46aa502a25422c22b82ec6688caba868edc0dfc5fcc358b96c4fe379431ac367cbaf8035a49f6a98cf9389d04471685021ab6856              889 main/binary-amd64/Packages.gz

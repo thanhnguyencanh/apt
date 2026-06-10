@@ -1,3 +1,18 @@
+Package: ros-noetic-livox-ros-driver2
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Livox Dev Team <dev@livoxtech.com>
+Installed-Size: 3767
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), git, libapr1-dev, libaprutil1-dev, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pcl-ros, ros-noetic-rosbag, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-livox-ros-driver2_1.0.0-0focal_amd64.deb
+Size: 670316
+MD5sum: f8cb1abd9df008f32087f9084f990693
+SHA1: 108c5a9b8f6e58472f970f86f31fef8f80ac5435
+SHA256: 8d5014a917cb5e3131ee5fccb8384c3b2969c7d292ba867a0aba65046a3849e0
+Section: misc
+Priority: optional
+Description: The ROS device driver for Livox 3D LiDARs
+
 Package: ros-noetic-nimbro-cam-transport
 Version: 0.0.1-0focal
 Architecture: amd64
@@ -422,6 +437,36 @@ Section: misc
 Priority: optional
 Description: Pointcloud tools package
 
+Package: ros-noetic-pairs-point-lio-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 253
+Depends: ros-noetic-cmake-modules, ros-noetic-livox-ros-driver2, ros-noetic-pairs-point-lio-estimator-plugin, ros-noetic-point-lio
+Filename: pool/noetic/main/ros-noetic-pairs-point-lio-core_1.0.0-0focal_amd64.deb
+Size: 20328
+MD5sum: d157bb3fd7a5ac1fff8f228b36d9e1a1
+SHA1: 845d2a51b6c9ddd5afa37e18be65e4ad6ed9e5a0
+SHA256: bb0b2dfb3729db01de925ac4124539076d8e90e623761beb8ab0d33779ed34cb
+Section: misc
+Priority: optional
+Description: The PAIRS Point-LIO core metapackage
+
+Package: ros-noetic-pairs-point-lio-estimator-plugin
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 313
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-point-lio-estimator-plugin_1.0.0-0focal_amd64.deb
+Size: 57576
+MD5sum: bc9c95f96901cec12148ccb22237ec03
+SHA1: 91c916a6e843d7c8dbe64a3526cad580434fae3e
+SHA256: 280a310037d976520c31da125d57df9a01d65dd9eb36c37348468441778e7888
+Section: misc
+Priority: optional
+Description: PAIRS Point-LIO state estimator plugin
+
 Package: ros-noetic-pairs-rviz-plugins
 Version: 1.0.4-0focal
 Architecture: amd64
@@ -811,4 +856,19 @@ SHA256: e13d43241624c8aa79f19f307d7654ae1717b1722c0fe642f9ca0479d61729a0
 Section: misc
 Priority: optional
 Description: The pairs_vins_republisher package
+
+Package: ros-noetic-point-lio
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: claydergc <dev@livoxtech.com>
+Installed-Size: 912
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgomp1 (>= 4.9), libpcl-common1.10 (>= 1.10.0+dfsg), libpcl-filters1.10 (>= 1.10.0+dfsg), libpcl-io1.10 (>= 1.10.0+dfsg), libpcl-segmentation1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), ros-noetic-geometry-msgs, ros-noetic-livox-ros-driver2, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Filename: pool/noetic/main/ros-noetic-point-lio_0.0.0-0focal_amd64.deb
+Size: 250296
+MD5sum: 4730ee8e2aadc39d5d44b03cba7a60f9
+SHA1: d2321b63a6da0752aacc0fd18b42a70142514414
+SHA256: 8792b1dca51f4899a147e55892de92af75ce899c9c3ca2dc957cd7c23ae66149
+Section: misc
+Priority: optional
+Description: TODO
 
