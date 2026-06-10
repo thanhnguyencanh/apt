@@ -1,3 +1,130 @@
+Package: ros-jazzy-livox-ros-driver2
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Tomas Baca" <tomas.baca@fel.cvut.cz>
+Installed-Size: 1266
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-fastcdr, git, libapr1-dev, libaprutil1-dev, libpcl-dev, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-livox-sdk2, ros-jazzy-pairs-lib, ros-jazzy-pcl-conversions, ros-jazzy-rcl-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rcutils, ros-jazzy-rosbag2, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs
+Filename: pool/jazzy/main/ros-jazzy-livox-ros-driver2_2.0.0-0noble_amd64.deb
+Size: 245842
+MD5sum: 627ec4b23d152cc4f3098a0402339241
+SHA1: 2c0e5ed70e1bdbd65780ab1e16383923f9f2e311
+SHA256: 5001c0b79d9253ef064238edd79f474883571c7c7046c4b468d908f5fcac2a06
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/livox_ros_driver2/#jazzy
+Description: The ROS device driver for Livox 3D LiDARs, for ROS2
+
+Package: ros-jazzy-ouster-ros
+Version: 0.13.11-0noble
+Architecture: amd64
+Maintainer: "ouster developers" <oss@ouster.io>
+Installed-Size: 8659
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libcurl4t64 (>= 7.16.2), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libjsoncpp25 (>= 1.9.5), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libspdlog1.12-fmt9, libstdc++6 (>= 13.1), curl, libcurl4-openssl-dev, libspdlog-dev, libtins-dev, net-tools, nmap, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-ouster-sensor-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-ouster-ros_0.13.11-0noble_amd64.deb
+Size: 1452994
+MD5sum: 5e61649d18a086d50d57d96b30572ac5
+SHA1: 779d8770c9d030e4e228cb2b1aada89d68b88d4a
+SHA256: 8b6a2f42e966f8e1302c385a054ac146b1688576ce879de1b7fabcc8b4712ba1
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ouster_ros/#jazzy
+Description: Ouster ROS2 driver
+
+Package: ros-jazzy-ouster-sensor-msgs
+Version: 0.12.2-0noble
+Architecture: amd64
+Maintainer: "ouster developers" <oss@ouster.io>
+Installed-Size: 1793
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: pool/jazzy/main/ros-jazzy-ouster-sensor-msgs_0.12.2-0noble_amd64.deb
+Size: 133162
+MD5sum: 3106a84a9cf308c2c838389b8288bd42
+SHA1: 10d5a8602bb40a7899c0a42827a7c0cfa107f508
+SHA256: 4ce090cf8576df21f09db26739165521bfdb4a3a06dbe5b2031e1687847f9908
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ouster_sensor_msgs/#jazzy
+Description: ouster_ros message and service definitions
+
+Package: ros-jazzy-ov-core
+Version: 2.7.0-0noble
+Architecture: amd64
+Maintainer: "Patrick Geneva" <pgeneva@udel.edu>
+Installed-Size: 1575
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-contrib406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-features2d406t64 (>= 4.6.0+dfsg), libopencv-highgui406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libopencv-video406t64 (>= 4.6.0+dfsg), libopencv-videoio406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), libboost-all-dev, libeigen3-dev, libopencv-contrib-dev, libopencv-dev, ros-jazzy-cv-bridge, ros-jazzy-rclcpp
+Filename: pool/jazzy/main/ros-jazzy-ov-core_2.7.0-0noble_amd64.deb
+Size: 507840
+MD5sum: bb3d282366ac792ec758148b449eb6ef
+SHA1: 8b28471e7a66d38780d0f9847965747637055813
+SHA256: 60a1383f4791fed4975600ad3f5d5479132e2ea3b117dd81d194410d212a435a
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Core algorithms for visual-inertial navigation algorithms.
+
+Package: ros-jazzy-ov-data
+Version: 2.7.0-0noble
+Architecture: amd64
+Maintainer: "Patrick Geneva" <pgeneva@udel.edu>
+Installed-Size: 41
+Filename: pool/jazzy/main/ros-jazzy-ov-data_2.7.0-0noble_amd64.deb
+Size: 5028
+MD5sum: bc8b35bbe692f5adea1cc3cfa583a257
+SHA1: 5d5e315ca24a4fdfd78789cf653013126b74c4d6
+SHA256: 10a220ebd33d963029f6a31ec27b6e0188375a3e3dd6d55b067152ea1a6c628b
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Data for the OpenVINS project, mostly just groundtruth files...
+
+Package: ros-jazzy-ov-eval
+Version: 2.7.0-0noble
+Architecture: amd64
+Maintainer: "Patrick Geneva" <pgeneva@udel.edu>
+Installed-Size: 1063
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1), libboost-all-dev, libeigen3-dev, ros-jazzy-ov-core, ros-jazzy-rclcpp
+Filename: pool/jazzy/main/ros-jazzy-ov-eval_2.7.0-0noble_amd64.deb
+Size: 290000
+MD5sum: 1acf94218af483699586744d136ee938
+SHA1: 90a9d0fb66c2e205cca05845b18a9bc2b0bf63d8
+SHA256: a24daf8612a11b21a4fdc0a0aeb4b872cb47ee470cac812e275b6a89bad54c06
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Evaluation methods and scripts for visual-inertial odometry systems.
+
+Package: ros-jazzy-ov-init
+Version: 2.7.0-0noble
+Architecture: amd64
+Maintainer: "Patrick Geneva" <pgeneva@udel.edu>
+Installed-Size: 1714
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.34), libceres4t64 (>= 2.2.0+dfsg), libgcc-s1 (>= 4.0), libgoogle-glog0v6t64 (>= 0.6.0), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), libboost-all-dev, libceres-dev, libeigen3-dev, libopencv-contrib-dev, libopencv-dev, ros-jazzy-cv-bridge, ros-jazzy-ov-core, ros-jazzy-rclcpp
+Filename: pool/jazzy/main/ros-jazzy-ov-init_2.7.0-0noble_amd64.deb
+Size: 559380
+MD5sum: a165ce9cc584b34926e0aa3fc2c4081a
+SHA1: e66ea7ae082ed54bf748e7d0bdcd27596b9eff07
+SHA256: 454b6f82cb99f4e24130e0c0e19c8586f9a3a5fed22de5da6efc3720687b88cf
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Initialization package which handles static and dynamic initialization.
+
+Package: ros-jazzy-ov-msckf
+Version: 2.7.0-0noble
+Architecture: amd64
+Maintainer: "Patrick Geneva" <pgeneva@udel.edu>
+Installed-Size: 5548
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-contrib406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-features2d406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1), libboost-all-dev, libceres-dev, libeigen3-dev, libopencv-contrib-dev, libopencv-dev, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-nav-msgs, ros-jazzy-ov-core, ros-jazzy-ov-init, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-ov-msckf_2.7.0-0noble_amd64.deb
+Size: 1354944
+MD5sum: fe1a0bd566fab5252fda8de1636f00e4
+SHA1: 8f643aba7a1080e1c1128cb5745c04560223c4ae
+SHA256: dacba02d6cda2c930fc2a0d373d7f55922f941ed9e592b31a52c9f994496a8b6
+Section: misc
+Priority: optional
+Homepage: https://docs.openvins.com/
+Description: Implementation of a type-based error-state Kalman filter.
+
 Package: ros-jazzy-pairs-bumper
 Version: 1.0.4-0noble
 Architecture: amd64
@@ -158,6 +285,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_odometry_republisher/#jazzy
 Description: pairs_odometry_republisher
 
+Package: ros-jazzy-pairs-open-vins-core
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2533
+Depends: ros-jazzy-ov-core, ros-jazzy-ov-eval, ros-jazzy-ov-init, ros-jazzy-ov-msckf, ros-jazzy-pairs-open-vins-estimator-plugin, ros-jazzy-pairs-vins-imu-filter, ros-jazzy-pairs-vins-republisher
+Filename: pool/jazzy/main/ros-jazzy-pairs-open-vins-core_2.0.0-0noble_amd64.deb
+Size: 36332
+MD5sum: 691c456bd91bf27fcce3961da6b6fb49
+SHA1: aad3bd0336e1963819ca89416e0fe4da184cd0f4
+SHA256: 1439ceca885beca7b8a5715b3e4bfcbb283484b912a820d9ed85b89d0f71d917
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_open_vins_core/#jazzy
+Description: TODO: Package description
+
 Package: ros-jazzy-pairs-open-vins-estimator-plugin
 Version: 2.0.0-0noble
 Architecture: amd64
@@ -173,6 +316,22 @@ Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_open_vins_estimator_plugin/#jazzy
 Description: PAIRS open_vins state estimator plugin
+
+Package: ros-jazzy-pairs-pcl-tools
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2420
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 4.3), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-features1.14 (>= 1.14.0+dfsg), libpcl-filters1.14 (>= 1.14.0+dfsg), libpcl-io1.14 (>= 1.14.0+dfsg), libpcl-search1.14 (>= 1.14.0+dfsg), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-fastcdr, libeigen3-dev, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-ouster-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-modules-msgs, ros-jazzy-pairs-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2-eigen, ros-jazzy-visualization-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-pcl-tools_2.0.0-0noble_amd64.deb
+Size: 397254
+MD5sum: 3c75127a75751f6a8fc8bde18953d1c3
+SHA1: 9f65cfb35a9559bc997cb346567bac4e4adf16a9
+SHA256: b6bb3c06e351c8be54d3b87b75ded747c24811a3560558721a33fb74db8bd143
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_pcl_tools/#jazzy
+Description: Pointcloud tools package
 
 Package: ros-jazzy-pairs-point-lio-estimator-plugin
 Version: 2.0.0-0noble
