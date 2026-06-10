@@ -28,6 +28,22 @@ Section: misc
 Priority: optional
 Description: The ROS device driver for Livox 3D LiDARs
 
+Package: ros-noetic-mav-msgs
+Version: 3.3.3-0focal
+Architecture: amd64
+Maintainer: Rik Bähnemann <brik@ethz.ch>
+Installed-Size: 563
+Depends: libeigen3-dev, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-std-msgs, ros-noetic-trajectory-msgs
+Filename: pool/noetic/main/ros-noetic-mav-msgs_3.3.3-0focal_amd64.deb
+Size: 48480
+MD5sum: 37c329d391cc7ddffd22b5c34b2da2d1
+SHA1: 69f18bf2b41cae5ed67f5f4f2097a7b2040d64fd
+SHA256: 5280d3af6b6559a1f3264e53a8c50759cf8064cbea277055994acb40a39b37fa
+Section: misc
+Priority: optional
+Homepage: https://github.com/ethz-asl/mav_comm
+Description: Package containing messages for communicating with rotary wing MAVs
+
 Package: ros-noetic-nimbro-cam-transport
 Version: 0.0.1-0focal
 Architecture: amd64
@@ -271,6 +287,21 @@ SHA256: 8a2b71f6760db9c62e15644d0017c4171afb56c91bcd73e3e85b2358f3249300
 Section: misc
 Priority: optional
 Description: The Euler Counter-Example package
+
+Package: ros-noetic-pairs-gazebo-common-resources
+Version: 1.0.3-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 217705
+Depends: libboost-thread1.71.0, libc6 (>= 2.29), libgazebo11 (>= 11.15.1), libgcc-s1 (>= 3.0), libignition-math6 (>= 6.15.1), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libprotobuf17, libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libsdformat9 (>= 9.10.1), libstdc++6 (>= 9), gazebo11, libboost-all-dev, ros-noetic-gazebo-plugins, ros-noetic-gazebo-ros, ros-noetic-geometry-msgs, ros-noetic-mav-msgs, ros-noetic-message-generation, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospack, ros-noetic-std-msgs, ros-noetic-tf2, ros-noetic-tf2-msgs, ros-noetic-tf2-ros
+Filename: pool/noetic/main/ros-noetic-pairs-gazebo-common-resources_1.0.3-0focal_amd64.deb
+Size: 90114456
+MD5sum: 369447ae95ecfc75175ba030f8e2ae4c
+SHA1: 1c52d96b16824e208782c1d319fdc72d59d370ca
+SHA256: 008101455ce1105c94c98fa51bbe9a48fcf51ef338e26cc02e511107a652d016
+Section: misc
+Priority: optional
+Description: This package contains common gazebo files (worlds, models and plugins) for the PAIRS system.
 
 Package: ros-noetic-pairs-landing-pad-estimation
 Version: 1.0.0-0focal
@@ -796,6 +827,21 @@ SHA256: 98dd2a6ee00fa1d633ce06ed1fcd2188a5195a4749b6ce8e0bd28b8b6863473f
 Section: misc
 Priority: optional
 Description: The Path Loader package
+
+Package: ros-noetic-pairs-uav-px4-api
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1045
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-mavros, ros-noetic-mavros-extras, ros-noetic-mavros-msgs, ros-noetic-nav-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-hw-api, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-px4-api_1.0.0-0focal_amd64.deb
+Size: 162600
+MD5sum: 5d96d2b04385be77e3a7298c2b8b2334
+SHA1: d7c5ba59beed14ed3bfdcb6a7305a336126bcf13
+SHA256: b8d793c9b52584fef62ac1264d56a37b5c9d393c476c750947414eee9cd0b9f0
+Section: misc
+Priority: optional
+Description: PX4 API for PAIRS UAV System
 
 Package: ros-noetic-pairs-uav-state-estimators
 Version: 0.0.3-0focal
