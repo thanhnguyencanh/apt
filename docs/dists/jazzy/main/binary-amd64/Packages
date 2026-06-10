@@ -3,12 +3,12 @@ Version: 2.0.0-0noble
 Architecture: amd64
 Maintainer: "Tomas Baca" <tomas.baca@fel.cvut.cz>
 Installed-Size: 1266
-Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-fastcdr, git, libapr1-dev, libaprutil1-dev, libpcl-dev, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-livox-sdk2, ros-jazzy-pairs-lib, ros-jazzy-pcl-conversions, ros-jazzy-rcl-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rcutils, ros-jazzy-rosbag2, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-fastcdr, git, libapr1-dev, libaprutil1-dev, libpcl-dev, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pcl-conversions, ros-jazzy-rcl-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rcutils, ros-jazzy-rosbag2, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs
 Filename: pool/jazzy/main/ros-jazzy-livox-ros-driver2_2.0.0-0noble_amd64.deb
-Size: 245842
-MD5sum: 627ec4b23d152cc4f3098a0402339241
-SHA1: 2c0e5ed70e1bdbd65780ab1e16383923f9f2e311
-SHA256: 5001c0b79d9253ef064238edd79f474883571c7c7046c4b468d908f5fcac2a06
+Size: 245788
+MD5sum: fed3470c8e78c23d0a04daf3bdd81f21
+SHA1: 95c5b6ac901df99cb5283b7b429f3f9c75ab70b7
+SHA256: e03662de07f04381ecc8733f5366e9f12952420515318fe5b78e956325501ce9
 Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/livox_ros_driver2/#jazzy
@@ -333,6 +333,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_pcl_tools/#jazzy
 Description: Pointcloud tools package
 
+Package: ros-jazzy-pairs-point-lio-core
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 193
+Depends: ros-jazzy-livox-ros-driver2, ros-jazzy-pairs-point-lio-estimator-plugin, ros-jazzy-point-lio
+Filename: pool/jazzy/main/ros-jazzy-pairs-point-lio-core_2.0.0-0noble_amd64.deb
+Size: 21284
+MD5sum: 79d426e122d6ec88982dc21451706f31
+SHA1: 49713937ff484df3bed7b331150996c19495298e
+SHA256: 22a5d3108d51547ecdd4be61b62e3fdad83533649c46ff4ede5e2666dc725f12
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_point_lio_core/#jazzy
+Description: PAIRS PointLIO core
+
 Package: ros-jazzy-pairs-point-lio-estimator-plugin
 Version: 2.0.0-0noble
 Architecture: amd64
@@ -477,6 +493,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_uav_controllers/#jazzy
 Description: PAIRS UAV Controllers
 
+Package: ros-jazzy-pairs-uav-core
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 67
+Depends: moreutils, ros-jazzy-builtin-interfaces, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-multirotor-simulator, ros-jazzy-pairs-uav-autostart, ros-jazzy-pairs-uav-controllers, ros-jazzy-pairs-uav-hw-api, ros-jazzy-pairs-uav-managers, ros-jazzy-pairs-uav-state-estimators, ros-jazzy-pairs-uav-status, ros-jazzy-pairs-uav-trackers, ros-jazzy-pairs-uav-trajectory-generation, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rmw-cyclonedds-cpp, ros-jazzy-rmw-zenoh-cpp, tmux, tmuxinator
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-core_2.0.0-0noble_amd64.deb
+Size: 9372
+MD5sum: 8e6956cd05b628eb03f6b81b76da2f56
+SHA1: 4ae0964bf53a4b7bc55b5533b8b1726f11ebf13d
+SHA256: 675a354493687deed1625000033a68b4ee65b40f1324b632b7449a4f21924ab8
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_core/#jazzy
+Description: PAIRS UAV Core
+
 Package: ros-jazzy-pairs-uav-hw-api
 Version: 1.0.0-0noble
 Architecture: amd64
@@ -605,6 +637,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_uav_trackers/#jazzy
 Description: PAIRS UAV Trackers
 
+Package: ros-jazzy-pairs-uav-trajectory-generation
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 3383
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libnlopt0 (>= 2.6.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nlopt, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-trajectory-generation_2.0.0-0noble_amd64.deb
+Size: 655974
+MD5sum: bb8b94d3e2578b3bdddffb89c77bde67
+SHA1: f235f8e55aec2d96bf7bdd5608b63b64bcfc8d1f
+SHA256: d562849d6666b8320762ed6cbc1722c7a92d2df484e99fcc77ed6a45fe462046
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_trajectory_generation/#jazzy
+Description: PAIRS UAV Trajectory Generation
+
 Package: ros-jazzy-pairs-uav-trajectory-loader
 Version: 0.0.1-0noble
 Architecture: amd64
@@ -684,4 +732,20 @@ Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_vins_republisher/#jazzy
 Description: The pairs_vins_republisher package
+
+Package: ros-jazzy-point-lio
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "claydergc" <dev@livoxtech.com>
+Installed-Size: 2337
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-filters1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, ros-jazzy-backward-ros, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-livox-ros-driver2, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-point-lio_2.0.0-0noble_amd64.deb
+Size: 521562
+MD5sum: c335f0d7fcfc7e5b47b155042e036949
+SHA1: 3c172aaf3160eb6579201b8874644cae5fda2fb9
+SHA256: 89e1f5a6325e9b72a8f81aaba6993888f77f78d4bbe99aefac86173a1da7de2d
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/point_lio/#jazzy
+Description: PointLIO
 
