@@ -1,3 +1,19 @@
+Package: ros-jazzy-pairs-bumper
+Version: 1.0.4-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2680
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-flann406t64 (>= 4.6.0+dfsg), libopencv-highgui406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), liborocos-kdl1.5 (>= 1.5.1), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-filters1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-image-geometry, ros-jazzy-image-transport, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-msgs, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-tf2-sensor-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-bumper_1.0.4-0noble_amd64.deb
+Size: 476808
+MD5sum: f51d140af68e58ff905ee2fa12a1c0bf
+SHA1: 5651a04b66af47748b1133be5cc40a09161d58cf
+SHA256: 9dea16106a6ea0f4f273864c4a9c1c817ce0bf34c4ebff7218eec02d4360b74f
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_bumper/#jazzy
+Description: Program for publishing bumper messages for reactive collision avoidance
+
 Package: ros-jazzy-pairs-lib
 Version: 1.0.0-0noble
 Architecture: amd64
@@ -14,6 +30,38 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_lib/#jazzy
 Description: PAIRS shared C++ library — attitude math, filters, parameter loading, geometry utilities, transformations
 
+Package: ros-jazzy-pairs-modules-msgs
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 6006
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-rosidl-default-generators, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs
+Filename: pool/jazzy/main/ros-jazzy-pairs-modules-msgs_2.0.0-0noble_amd64.deb
+Size: 407576
+MD5sum: 9e5930f0e8ac83f07150252ef8992750
+SHA1: a26cc2e5f78a04adf11d7fbe316fa5353afe677c
+SHA256: 847f7333dfdab7915b33352f84464f57db61163cbd698331884105407d47c516
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_modules_msgs/#jazzy
+Description: The pairs_modules_msgs package
+
+Package: ros-jazzy-pairs-mpc-solvers
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 1233
+Depends: libc6 (>= 2.27), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libeigen3-dev, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components
+Filename: pool/jazzy/main/ros-jazzy-pairs-mpc-solvers_1.0.0-0noble_amd64.deb
+Size: 230876
+MD5sum: 3c14601bdc91237ec2270f877e418404
+SHA1: 8de3c0209d6ce21a47b580c20cc1cb591ab7c4fb
+SHA256: 4990a43e35b1777ea5f07776cd97f829f458ffb61004b49e0d5a4550642bd126
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_mpc_solvers/#jazzy
+Description: The mpc_solvers package
+
 Package: ros-jazzy-pairs-msgs
 Version: 1.0.0-0noble
 Architecture: amd64
@@ -29,4 +77,372 @@ Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_msgs/#jazzy
 Description: PAIRS UAV custom ROS message and service definitions
+
+Package: ros-jazzy-pairs-multirotor-simulator
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 9087
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-uav-hw-api, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-multirotor-simulator_1.0.0-0noble_amd64.deb
+Size: 1085264
+MD5sum: 187accee7bb32034e773296918460723
+SHA1: 555b40fda1188c09144681c11e1848061802cd5c
+SHA256: 9f30e485710f655d83593e4512eb75bf6334ee76f981b21c119a6fad9d1a1a81
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_multirotor_simulator/#jazzy
+Description: The PAIRS Multirotor simulator
+
+Package: ros-jazzy-pairs-octomap-planner
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2869
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-dynamic-edt-3d, ros-jazzy-octomap, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-octomap-msgs, ros-jazzy-octomap-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-modules-msgs, ros-jazzy-pairs-msgs, ros-jazzy-pairs-subt-planning-lib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-std-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-octomap-planner_1.0.0-0noble_amd64.deb
+Size: 558058
+MD5sum: 7110433eb5eca6de8be8da5f32013be7
+SHA1: 1869ecdf7e6a310d5da5708fa8ff52ccbc41c51b
+SHA256: 7dee9acd65faffc7b253189e7b1d349bc4e3b0bad31e09c5fb54033176634aa9
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_octomap_planner/#jazzy
+Description: The Octomap Planner package
+
+Package: ros-jazzy-pairs-octomap-server
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2224
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgomp1 (>= 6), liborocos-kdl1.5 (>= 1.5.1), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-filters1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-octomap, ros-jazzy-geometry-msgs, ros-jazzy-laser-geometry, ros-jazzy-octomap-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-modules-msgs, ros-jazzy-pairs-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs
+Filename: pool/jazzy/main/ros-jazzy-pairs-octomap-server_2.0.0-0noble_amd64.deb
+Size: 378576
+MD5sum: ec5102f69baac590e0e1858ddd782821
+SHA1: 4c56f80214fc61c6ab652608c59a0d5bf8c6c4ca
+SHA256: 035aa0d3911092275c1fef7a701db28704fae5feae690c91e856f40db32e6233
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_octomap_server/#jazzy
+Description: PAIRS Octomap server
+
+Package: ros-jazzy-pairs-odometry-republisher
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 698
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-tf2, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-odometry-republisher_2.0.0-0noble_amd64.deb
+Size: 172644
+MD5sum: af8e6397ca7ed3cfb84a698879f7297f
+SHA1: 1442d0412d36df1c27461a8bb3ed441b944fb68a
+SHA256: 472a71a6cc284ba188e0100c47942f315870998e12588a12a902b6b6311e4516
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_odometry_republisher/#jazzy
+Description: pairs_odometry_republisher
+
+Package: ros-jazzy-pairs-rviz-plugins
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 1441
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core406t64 (>= 4.6.0+dfsg), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rviz-ogre-vendor, libpcl-dev, qtbase5-dev, ros-jazzy-cv-bridge, ros-jazzy-eigen3-cmake-module, ros-jazzy-image-transport, ros-jazzy-message-filters, ros-jazzy-pairs-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rviz-common, ros-jazzy-sensor-msgs, ros-jazzy-sophus, ros-jazzy-std-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-rviz-plugins_2.0.0-0noble_amd64.deb
+Size: 317100
+MD5sum: 9ca1a9815ef37538aebba1b51ccc0dc5
+SHA1: 58a6d100a246903aade412ca7ed06c99e12f4fbd
+SHA256: 5af86b686f2dd60ea8620df645e1ce36c473d0547b6a3538a52f849322d3bd14
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_rviz_plugins/#jazzy
+Description: Plugin for rviz to work with the PAIRS system
+
+Package: ros-jazzy-pairs-serial
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 462
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs
+Filename: pool/jazzy/main/ros-jazzy-pairs-serial_2.0.0-0noble_amd64.deb
+Size: 128408
+MD5sum: aaa822615089876bbe84f8fb14033484
+SHA1: d5785b669cc0f55af4f0944ef45e59c6b874583f
+SHA256: bcf6e1b70e2bc89cce69aecc94b61be9705aef6eb39bac105870913e179e2efe
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_serial/#jazzy
+Description: TODO: Package description
+
+Package: ros-jazzy-pairs-subt-planning-lib
+Version: 0.0.4-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 363
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.14 (>= 1.14.0+dfsg), libpcl-io1.14 (>= 1.14.0+dfsg), libpcl-kdtree1.14 (>= 1.14.0+dfsg), libpcl-octree1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), libpcl-dev, ros-jazzy-octomap-msgs, ros-jazzy-octomap-ros, ros-jazzy-pairs-lib, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-subt-planning-lib_0.0.4-0noble_amd64.deb
+Size: 109222
+MD5sum: 93115dac0fec9edc82a1f09b94ccca55
+SHA1: 7f1ce706bebc03ed1dcb36e2ec950caa3157b288
+SHA256: d0246d090f92f2e006abd182b86bf97f5a4137148e4f53a481af93456879f4bf
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_subt_planning_lib/#jazzy
+Description: Package for planning in darpa SubT challenge
+
+Package: ros-jazzy-pairs-tf-connector
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 813
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-pairs-lib, ros-jazzy-pairs-modules-msgs, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-tf2-sensor-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-tf-connector_1.0.0-0noble_amd64.deb
+Size: 208626
+MD5sum: 4e4bfee1bc88afb0f60250544088a8c7
+SHA1: 53ed3f1d0ab5b92084815d0b6ad90304b18fe776
+SHA256: ef4d493d6cda4c62fe7962bd3dd95a1f37821764e2b2033ae562dd222124bfc1
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_tf_connector/#jazzy
+Description: A package for connecting two transform trees via root frames
+
+Package: ros-jazzy-pairs-tf-mirror
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 745
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-modules-msgs, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-tf2, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-tf-mirror_1.0.0-0noble_amd64.deb
+Size: 182836
+MD5sum: f71ce4c136436f55a49b7d6c2b2937b5
+SHA1: be1b7c04494a0dfe5d33f441379b0e15d317ef90
+SHA256: ee62349106b319fee4a8d84c3e9624008143e9735ca7d0e4342360e99366ee9c
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_tf_mirror/#jazzy
+Description: The TF Mirror package
+
+Package: ros-jazzy-pairs-tf-reconfigure
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 301
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-modules-msgs, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-tf2-sensor-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-tf-reconfigure_1.0.0-0noble_amd64.deb
+Size: 82454
+MD5sum: e0a9b19051a09d81cb2ba9bf1c73590a
+SHA1: be78a26f722b72789b53854ad8bf95e0c05736f9
+SHA256: d36d7cb9940b1cd55815d27011f32ea2886f14a5f26c58814ce379fa28900e34
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_tf_reconfigure/#jazzy
+Description: The pairs_tf_reconfigure package
+
+Package: ros-jazzy-pairs-uav-autostart
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2885
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-autostart_2.0.0-0noble_amd64.deb
+Size: 406924
+MD5sum: e335cca873a73dbd0e3773d32b1099e7
+SHA1: 4ac1848fdc2a34b5d27830de98790fcf8d8a4855
+SHA256: 3a19a8abb2272d50f34b529c731bd4d87801c790d90247e4581e2f8c60c27cfd
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_autostart/#jazzy
+Description: PAIRS UAV Autostart
+
+Package: ros-jazzy-pairs-uav-controllers
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2594
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-mpc-solvers, ros-jazzy-pairs-msgs, ros-jazzy-pairs-uav-managers, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-sensor-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-controllers_2.0.0-0noble_amd64.deb
+Size: 516502
+MD5sum: c513ac221f29950736be3f3232f3c532
+SHA1: 3049fc0b7e9b1ace05dfea948bd87b6344e017a3
+SHA256: 1f125f6d6ebecaee62f2e4c28f5bbad18d9aa16f4603d3ace5559685de53845b
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_controllers/#jazzy
+Description: PAIRS UAV Controllers
+
+Package: ros-jazzy-pairs-uav-hw-api
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 4255
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-uav-testing, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-hw-api_1.0.0-0noble_amd64.deb
+Size: 607896
+MD5sum: 0c598d6c03ef05c22760ea2f942d515b
+SHA1: 6cffb6097154a0a772deb81f84b0506c67d39135
+SHA256: a5ca4cd8d9d7ddab494b4214f65a4903359770e83eb7120102cfb2377f4fdd0c
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_hw_api/#jazzy
+Description: The pairs_uav_hw_api package
+
+Package: ros-jazzy-pairs-uav-managers
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 19637
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-uav-hw-api, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros, ros-jazzy-visualization-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-managers_2.0.0-0noble_amd64.deb
+Size: 2869510
+MD5sum: 44e4352570543789998c3b881ce80cf3
+SHA1: bd15f74e0309a9b11662d32e15104805d405974a
+SHA256: 85231eb2b6291810ad5093fd8b8cf40241893e8804a6a4fdc14a501f19d0c883
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_managers/#jazzy
+Description: PAIRS UAV Managers
+
+Package: ros-jazzy-pairs-uav-path-loader
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 333
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-eigen3-cmake-module, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-path-loader_2.0.0-0noble_amd64.deb
+Size: 94300
+MD5sum: 56d8da6a14d35723f32380d8d7b9be0c
+SHA1: 5411ec86a84584ce3454619b248e099af68caa68
+SHA256: 76ed6c02f584543a3d8aea02adcab97bc8b8ecc72865bbec734ea644b4aa8013
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_path_loader/#jazzy
+Description: Ported path loader component for ROS 2
+
+Package: ros-jazzy-pairs-uav-state-estimators
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 11216
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-uav-managers, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-state-estimators_2.0.0-0noble_amd64.deb
+Size: 1360866
+MD5sum: b6fea263dadc2cd193323f499e616e50
+SHA1: 59547a6c086a244089d44268f1642eab5546b799
+SHA256: e24500aee72867b4416179e2a937389e9e002ab925c52aacab751dabb0e33dfa
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_state_estimators/#jazzy
+Description: PAIRS UAV State Estimators
+
+Package: ros-jazzy-pairs-uav-status
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 5956
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libncurses6 (>= 6), libstdc++6 (>= 13.1), libtinfo6 (>= 6), libyaml-cpp0.8 (>= 0.7.0), libboost-dev, libncurses-dev, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-std-msgs, ros-jazzy-tf2-geometry-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-status_2.0.0-0noble_amd64.deb
+Size: 792444
+MD5sum: 490a39159015aca34902354e83886e2f
+SHA1: 17f187782edcd2517037fe81a26a89bcd7ae36fc
+SHA256: cb0f98325a7449ab611d85bffb66a46aa95c92144beafff3fa3f67b7c124d83a
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_status/#jazzy
+Description: The pairs_uav_status package
+
+Package: ros-jazzy-pairs-uav-testing
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 12938
+Depends: libyaml-cpp-dev, ros-jazzy-backward-ros, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-testing_2.0.0-0noble_amd64.deb
+Size: 539332
+MD5sum: 58766bc94069addd99d2464173427a71
+SHA1: f671dabbb49cc78b6e3889f352c9789facc0dc57
+SHA256: 1e447dd31d3ee4da8303ec90596df9023621e3e50c2bbd1edce5f3a5d9c6263e
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_testing/#jazzy
+Description: pairs_uav_testing
+
+Package: ros-jazzy-pairs-uav-trackers
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2672
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pairs-lib, ros-jazzy-pairs-mpc-solvers, ros-jazzy-pairs-msgs, ros-jazzy-pairs-uav-managers, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-sensor-msgs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-trackers_2.0.0-0noble_amd64.deb
+Size: 595112
+MD5sum: ab31cac7ba4028a9a7c7256736dd2d31
+SHA1: fd2517c5fd7095f56c4ff9ab025d3d5070d20d03
+SHA256: 294179585131258b3823aed0bfb26be41ccf487a9514adcb520a50a0b92338c9
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_trackers/#jazzy
+Description: PAIRS UAV Trackers
+
+Package: ros-jazzy-pairs-uav-trajectory-loader
+Version: 0.0.1-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 324
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-std-srvs
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-trajectory-loader_0.0.1-0noble_amd64.deb
+Size: 94448
+MD5sum: a0b4b4d1349eda974b70a8a72d0f3917
+SHA1: 35adb97acc8849258a9c057f4e1d06337a35b68f
+SHA256: 7fa9c9534968ab06015d2bfa547d386b42b0393da19212947f522939da2f70bc
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_trajectory_loader/#jazzy
+Description: Minimal ROS2 trajectory loader as a component.
+
+Package: ros-jazzy-pairs-utils
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 41
+Depends: ros-jazzy-builtin-interfaces, ros-jazzy-pairs-odometry-republisher, ros-jazzy-pairs-tf-connector, ros-jazzy-pairs-tf-mirror, ros-jazzy-pairs-tf-reconfigure
+Filename: pool/jazzy/main/ros-jazzy-pairs-utils_2.0.0-0noble_amd64.deb
+Size: 5016
+MD5sum: ef6418557f793e3345539f511e1b805d
+SHA1: 0bb1f2e6b53b9a160edc7e15a82c4e6b7020a937
+SHA256: e555ef0bd925ac3e340476cca02a755fc321c0f8baf5f58a9cba98428ee168f2
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_utils/#jazzy
+Description: PAIRS Utils
+
+Package: ros-jazzy-pairs-vins-imu-filter
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 713
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-vins-imu-filter_2.0.0-0noble_amd64.deb
+Size: 173022
+MD5sum: 3696ea1b8aa1377d561b78c0ec7cce6a
+SHA1: 185406138f6841266ba2c4e344f5699caa014ae3
+SHA256: b742a23f7a8b4c3ea59a46e32ba7537662b0839190ea5b6f326e51cab444f2d3
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_vins_imu_filter/#jazzy
+Description: The pairs_vins_imu_filter package
+
+Package: ros-jazzy-pairs-vins-republisher
+Version: 0.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 789
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-tf2, ros-jazzy-tf2-ros
+Filename: pool/jazzy/main/ros-jazzy-pairs-vins-republisher_0.0.0-0noble_amd64.deb
+Size: 183836
+MD5sum: 77fd82aea8b9101a1336ebf6d6a6d370
+SHA1: 512e556f518f29162750e602ce9799fa247493eb
+SHA256: f11f90bbe5b27b4af00ff1cfdf96ce3548204817a33e5d798dd4b5b85e0c7852
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_vins_republisher/#jazzy
+Description: The pairs_vins_republisher package
 
