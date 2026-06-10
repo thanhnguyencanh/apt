@@ -4,40 +4,40 @@ Hash: SHA512
 Architectures: amd64
 Codename: jazzy
 Components: main
-Date: Wed, 10 Jun 2026 10:16:17 +0000
+Date: Wed, 10 Jun 2026 10:41:20 +0000
 Description: PAIRS Lab ROS packages (jazzy)
 Label: PAIRS Lab
 Origin: pairs-lab
 Suite: jazzy
 MD5Sum:
- 8a7b5f9efe31ddf11ab460ef36cc6177              184 Release
+ b86ef5164a8185e09c84446fd77ad298              184 Release
  e745e8cd6c6330f5cfb1a4f36cb8c409             1912 main/binary-amd64/Packages
- e1201dbb9f54a9e6de0ae017f8160506              889 main/binary-amd64/Packages.gz
+ d87893273f4b1323a451cb2601385a98              889 main/binary-amd64/Packages.gz
 SHA1:
- 212e29d1460d74497e95643ffa9ccf23e4b65d45              184 Release
+ fb0294466977fac9a9a7745a920c018725778fc2              184 Release
  0fd118dafa7715cf68ecfe9ca5839bdd8b2e6731             1912 main/binary-amd64/Packages
- 73b360e5da33dde88d97a1d8bf0310447f946dd5              889 main/binary-amd64/Packages.gz
+ beffc6c51d3aa09e813fbdb926249d8b2aab0389              889 main/binary-amd64/Packages.gz
 SHA256:
- 376340d91a865fa49af4deb6bbf8db1b5b66fa9c2b10de65a464c7cb4acdaa93              184 Release
+ 77de6281bd3da8f962719758d1c67178530b87d8a076d89f01be00bdc04eae63              184 Release
  a37ac267bfed2b59473dcff45b63ddf11c64f7dfd6ed42f4a5c208e0d75c33d9             1912 main/binary-amd64/Packages
- 3407bcc07460b7a4c74c7b9a9d651019bf66927929fb0fd7b813c6f101b8f32d              889 main/binary-amd64/Packages.gz
+ 8b8728d162bc6217d8e07b7271e1b4ae21fc0fbed075c656c8e18ffb8915fa4d              889 main/binary-amd64/Packages.gz
 SHA512:
- 6d417a6cddc0eef9734d85b0338a9d525904c9c65fa7a2e6ac4f3a6a8f13136a77d63ba684df136a89d8be10c0e57dd2e75df7da770214ba0c11af6094a7b1c0              184 Release
+ 29ff761fe544525fd6a363436beb8166dbd48df4ecbd34117149e9bafe06a5e648e492f01b9e7a3cbbe0ccc8fc16773b183286331fd773daf43fef5a3b21e9bc              184 Release
  4905ca61e5f852d26cb9aa2c895764e872820d93c7c18268901f0f636e6f1eaae7537181714094552982e71dfc16d33e30597764bdc1f7a98bbaf864a79f9904             1912 main/binary-amd64/Packages
- 750bca0b9ed908659c3484cc46aa502a25422c22b82ec6688caba868edc0dfc5fcc358b96c4fe379431ac367cbaf8035a49f6a98cf9389d04471685021ab6856              889 main/binary-amd64/Packages.gz
+ 1a8be01dc0c159fc1c22e0c5af6e6a8f2fc0f34519f0659f96c60182f57a43b6df40800faf45341efc40909a365b169cdf5b97fdcedc350d425f38899dfa48fe              889 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEDJEFqxVRMT9jjkZrNfxuZDZ69foFAmopOXEACgkQNfxuZDZ6
-9fqvhw//Qjnm0k1g7tfdk4jDqRUHDknH0QH62OxlifzH1Hpf3GCGGsUgNNWoj35Q
-YZvmhKseRSGKetb0Mts6fK2TsYLydas6UfOpiYsuf3EJWEki0lHOX+ioX7+/zZ5a
-IjhRghKQnANhWqUEMScvlkZcD3ahYMzAPa4QMCHNcPJOJ0pnrSAuUrdRwhRy6rHx
-8PuBcQXFfysk3NNmZgvbkIuKhcFmBHmJXa+sDpZrgDgq0yHae/8wVTLwNyt6Hpw0
-pbsAdBlY7/ZjqM2RR46ctHgppu1wZSiwrAqWTLRQpHob5e2QuyAUY2X+G5Y4zVk6
-g/Cqv/kChujmyhFHNNTPPdjMA+TDamvzBSmvxmMFUmVcIM2mcAjMeGiy9OrhbdlS
-FbdU+RBHf1hMhorbo0nvocjGzSFlEDUJ4NBGnEhamz6X+ZChK94du0RlX/ZxYgVo
-S7rXJ9fxxlqDRcKR/7jj7cBCUCTfU4gdvdqFLEyaviS6gs5N7ms/CNtBokyJIOhM
-2sff7ZOdTyl2daupEVMZ/9rj9RaiyGTi4IGl2wQwksUJhn+83WPHHMGU3lyXFYZc
-XDskQaaQ5CKtVBf37Mjj36iwhDztXlxRk+kdbbnxyAFEKntmWe1+vlq7+AD8U65t
-Rz6efgpdhTXwSNN2O7p6UJkN8SKAZoV3KHquqPChOBIQ/cBE9Pc=
-=WHee
+iQIzBAEBCgAdFiEEDJEFqxVRMT9jjkZrNfxuZDZ69foFAmopP1AACgkQNfxuZDZ6
+9fp8rQ//eHChFSv5pKf0Q2irI4Bnb96hnxNPdnBVggZkOuIIqteTR4ZK7kI8Tp/h
+VLm52flMTSO4dh9uURMPVj1Lf24CIgijLfL8cx0kpPOqtFxk5f38DiIFLCbAVJnB
+anYYRUVUR/WhVvrBtL9bl4wJOStk+wosrekQUb8SwRe7J7wTNfboMjHw8h+yTIgS
+V8nCVwKtOFwoP3mckCYupacH8iDpuGE7DabxMByyyVVnp4lFdp77TaBVMzkVErjJ
+Hq4mGVXtsyHXL8Xi0rZSb7Y8S7siQzfPa6R8zNEur806wUJf9WOK+zluF70vWHpZ
+pFFmtE3SrgOus7lr67LXe3M1rIOS4CCsEXH5FfMi9+8nEJsE5JTvvq5AiMJpbRsE
+PNEaDm4HxZA5tekZhwg/HZTWuYSKw4D/h2eDpozsFNTPZsQGfO03+NyCQk9IoWc5
+3DxkKQ4w/BdZdOjN4DEZzKlM+HbfL9aPdT/idASCsJ1bVF+6fxKT790iXcJRCjD4
+YOMCdj3giLNDxVZIca+Kk/FS+Uprz0srADvuViRu8ago3Lq01QzkyPKmz9kaXKQw
+/xvJ4jVqdaV3R9aJvUv59XVMPRuHmE/aYIGV+sQueRvwevQnPBaVFFe7JhJOk9HQ
+YJAafDOJEYT3yX34gb0pcQoXjRbjnHodpkShhDFnbpjYOS3Fwqc=
+=JO1M
 -----END PGP SIGNATURE-----

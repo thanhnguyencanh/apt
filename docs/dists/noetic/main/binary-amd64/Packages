@@ -1,3 +1,18 @@
+Package: ros-noetic-liosam
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Matej Petrlik <matej.petrlik@fel.cvut.cz>
+Installed-Size: 2344
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libpcl-common1.10 (>= 1.10.0+dfsg), libpcl-filters1.10 (>= 1.10.0+dfsg), libpcl-io1.10 (>= 1.10.0+dfsg), libpcl-kdtree1.10 (>= 1.10.0+dfsg), libpcl-search1.10 (>= 1.10.0+dfsg), libpcl-segmentation1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), libtbb2 (>= 2017~U7), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-gtsam, ros-noetic-cv-bridge, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pcl-conversions, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-liosam_1.0.0-0focal_amd64.deb
+Size: 419884
+MD5sum: fe485936ed1aef0753eaa55c341172c2
+SHA1: 8913500bdda843e80b5adb28814328666a164c36
+SHA256: 51795c5dd393dab7cc4941183485318083e1e7ef580a5f8e956fc2f829af93e5
+Section: misc
+Priority: optional
+Description: Laser-inertial odometry by Tixiao Shan
+
 Package: ros-noetic-livox-ros-driver2
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -271,6 +286,36 @@ SHA256: beaf6297f49873e6b1426b35e33e48437f3d2d6bc3cf11bd9f5bd4ab625a2f93
 Section: misc
 Priority: optional
 Description: PAIRS shared C++ library — attitude math, filters, parameter loading, geometry utilities, transformations
+
+Package: ros-noetic-pairs-liosam-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 130
+Depends: ros-noetic-cmake-modules, ros-noetic-liosam, ros-noetic-pairs-liosam-estimator-plugin
+Filename: pool/noetic/main/ros-noetic-pairs-liosam-core_1.0.0-0focal_amd64.deb
+Size: 13548
+MD5sum: 9617bdec45dbb3975a84661c742562cd
+SHA1: 06e63f8690df8ba4a18044af0380f35d3500ccfc
+SHA256: db31bf71cc9447f1cb2734348a2e50fa00665239c5d4c266d43c6f3eca317d4c
+Section: misc
+Priority: optional
+Description: The PAIRS LIO-SAM core metapackage
+
+Package: ros-noetic-pairs-liosam-estimator-plugin
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 321
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-liosam-estimator-plugin_1.0.0-0focal_amd64.deb
+Size: 58932
+MD5sum: d6c6e2ed86ab6668e653aa4156714c34
+SHA1: c6927ae7823c20c4ac9fc12749f7e29d1f4314d7
+SHA256: 26648d69e261574586859dbed7e2503c892da8b031e14645802ec52e0472dbfb
+Section: misc
+Priority: optional
+Description: Lio-sam PAIRS state estimator plugin
 
 Package: ros-noetic-pairs-modules-msgs
 Version: 1.0.0-0focal
