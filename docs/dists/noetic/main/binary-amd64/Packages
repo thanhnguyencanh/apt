@@ -768,6 +768,36 @@ Section: misc
 Priority: optional
 Description: The pairs_uav_controllers package
 
+Package: ros-noetic-pairs-uav-coppelia-api
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 436
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), python3-zmq, ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-hw-api, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-coppelia-api_1.0.0-0focal_amd64.deb
+Size: 92576
+MD5sum: 16484bf4bb42c26f8ecae7d025efee35
+SHA1: eefcc50a0099e7d3c76cb579b586d6e66b028249
+SHA256: 4d4613c0c61335aaba2a8a17639dded7846b57d2af47ab24e8e3ca2bb5d33c13
+Section: misc
+Priority: optional
+Description: CoppeliaSim HW API for MRS UAV System
+
+Package: ros-noetic-pairs-uav-coppelia-simulation
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 460
+Depends: ros-noetic-pairs-uav-coppelia-api
+Filename: pool/noetic/main/ros-noetic-pairs-uav-coppelia-simulation_1.0.0-0focal_amd64.deb
+Size: 236120
+MD5sum: def2add9b84a5392f6c60d710a35d7b1
+SHA1: e20bd70e0ed79ec1e3f31396eabfec35eecf425d
+SHA256: 13da9f824c99beb2349bdac0e4bfa8b5d7d07c2992bd9705daa8a1f4061d1f66
+Section: misc
+Priority: optional
+Description: CoppeliaSim for the MRS UAV System
+
 Package: ros-noetic-pairs-uav-core
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -782,6 +812,21 @@ SHA256: 823999031dded5003d07a1d7c5a9070ed4a604976d619e9bc9fe4901d586f7c6
 Section: misc
 Priority: optional
 Description: The PAIRS UAV Core metapackage
+
+Package: ros-noetic-pairs-uav-dji-tello-api
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 831
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-mavros-msgs, ros-noetic-nav-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-hw-api, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-dji-tello-api_1.0.0-0focal_amd64.deb
+Size: 127112
+MD5sum: 386747316ca7b2d54e4a6da214e7d86e
+SHA1: 0e4041289a667c575e46dfb6fd8e52e2c7c3fae1
+SHA256: c028cedf996f502add1f5605cf29906471c22404e260e5cc1a142e4bbf5c236a
+Section: misc
+Priority: optional
+Description: DJI TELLO API for MRS UAV System
 
 Package: ros-noetic-pairs-uav-gazebo-simulation
 Version: 1.0.3-0focal
@@ -918,6 +963,21 @@ Section: misc
 Priority: optional
 Description: The pairs_uav_status package
 
+Package: ros-noetic-pairs-uav-system
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 14
+Depends: python-is-python3, ros-noetic-pairs-uav-core, ros-noetic-pairs-uav-modules
+Filename: pool/noetic/main/ros-noetic-pairs-uav-system_1.0.0-0focal_amd64.deb
+Size: 1812
+MD5sum: 824db85a611401071cb6c7cf91375f8d
+SHA1: 91f940569ba4b48c7dd5d97639c4617ff45edf3c
+SHA256: e6dc414fba667995d2ad946f765005d963a55d04dd035f2fcf3a8b42ce17306c
+Section: misc
+Priority: optional
+Description: The MRS UAV System metapackage
+
 Package: ros-noetic-pairs-uav-testing
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -977,6 +1037,21 @@ SHA256: 5436ca93b81518d8c5fd15373a51fe310454a513fa2be585bbcd2ea3cf807890
 Section: misc
 Priority: optional
 Description: A package for loading trajectories and calling multiple trigger messages.
+
+Package: ros-noetic-pairs-uav-unreal-simulation
+Version: 1.0.1-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 2438
+Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-multirotor-simulator, ros-noetic-pairs-uav-hw-api, ros-noetic-roscpp, ros-noetic-rosgraph-msgs, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs, ros-noetic-stereo-image-proc
+Filename: pool/noetic/main/ros-noetic-pairs-uav-unreal-simulation_1.0.1-0focal_amd64.deb
+Size: 433160
+MD5sum: d8199c442769edac1fc6fe9bed3ffd6c
+SHA1: 90a2ca51d220d4f46261f2f44b490a4ac45f5131
+SHA256: dcaa224fc35ba2e585eb9a678d864537c1b9346881b68db034a7b0c6eb390a27
+Section: misc
+Priority: optional
+Description: The MRS UnrealEngine simulator
 
 Package: ros-noetic-pairs-utils
 Version: 1.0.0-0focal
