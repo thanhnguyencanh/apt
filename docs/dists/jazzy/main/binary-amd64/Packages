@@ -557,6 +557,38 @@ Priority: optional
 Homepage: https://index.ros.org/p/pairs_uav_core/#jazzy
 Description: PAIRS UAV Core
 
+Package: ros-jazzy-pairs-uav-dji-tello-api
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 2190
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, python3-av, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-mavros-msgs, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-uav-hw-api, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf-transformations
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-dji-tello-api_2.0.0-0noble_amd64.deb
+Size: 334832
+MD5sum: a5cec3561b7b581267ecae987fa3ef2d
+SHA1: d3e7aa2f9cb36a4233090583deeaaa7d71a3f1a8
+SHA256: ba06aa30245732dd9b90c499c2bdab6999a7fca1450e1accae3fa8b4a7301ca0
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_dji_tello_api/#jazzy
+Description: DJI TELLO API for MRS UAV System
+
+Package: ros-jazzy-pairs-uav-flightforge-simulator
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 7682
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-fastcdr, libeigen3-dev, libomp-dev, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-image-transport, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-nav-msgs, ros-jazzy-pairs-lib, ros-jazzy-pairs-msgs, ros-jazzy-pairs-multirotor-simulator, ros-jazzy-pairs-uav-hw-api, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rosgraph-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-stereo-image-proc
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-flightforge-simulator_2.0.0-0noble_amd64.deb
+Size: 1096482
+MD5sum: 77a4e76bc71621e8164d110fb33570fa
+SHA1: acdf0c18e41e2d2b4562202eea6d9bb186340801
+SHA256: a4edf56b36cdc927e85dd65ee78ee1e40343bb245ea954c6836011d04b298dc3
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_flightforge_simulator/#jazzy
+Description: The MRS FlightForge simulator
+
 Package: ros-jazzy-pairs-uav-hw-api
 Version: 1.0.0-0noble
 Architecture: amd64
@@ -652,6 +684,22 @@ Section: misc
 Priority: optional
 Homepage: https://index.ros.org/p/pairs_uav_status/#jazzy
 Description: The pairs_uav_status package
+
+Package: ros-jazzy-pairs-uav-system
+Version: 2.0.0-0noble
+Architecture: amd64
+Maintainer: "Thanh Nguyen Canh" <canhthanh@vnu.edu.vn>
+Installed-Size: 41
+Depends: ros-jazzy-pairs-uav-core, ros-jazzy-pairs-uav-modules
+Filename: pool/jazzy/main/ros-jazzy-pairs-uav-system_2.0.0-0noble_amd64.deb
+Size: 4962
+MD5sum: ac3038fc1ed8197412e434ed626250bc
+SHA1: 79182bc9c50ba346ab937dd97db6461fcaed9d44
+SHA256: 34125b1cac0b8b88fa6c3fe780766394529d7127e55929b5f04ceebea977315f
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pairs_uav_system/#jazzy
+Description: The MRS UAV System metapackage
 
 Package: ros-jazzy-pairs-uav-testing
 Version: 2.0.0-0noble
