@@ -1,3 +1,67 @@
+Package: ros-noetic-aloam-slam
+Version: 0.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 894
+Depends: libc6 (>= 2.14), libceres1, libconsole-bridge0.4, libgcc-s1 (>= 4.0), libpcl-common1.10 (>= 1.10.0+dfsg), libpcl-filters1.10 (>= 1.10.0+dfsg), libpcl-kdtree1.10 (>= 1.10.0+dfsg), libpcl-segmentation1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), libceres-dev, ros-noetic-eigen-conversions, ros-noetic-geometry-msgs, ros-noetic-image-transport, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-ouster-ros, ros-noetic-pairs-lib, ros-noetic-pairs-modules-msgs, ros-noetic-pairs-msgs, ros-noetic-pcl-conversions, ros-noetic-pcl-msgs, ros-noetic-pcl-ros, ros-noetic-rosbag, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-tf-conversions, ros-noetic-tf2-eigen
+Filename: pool/noetic/main/ros-noetic-aloam-slam_0.0.0-0focal_amd64.deb
+Size: 244996
+MD5sum: c94daa87629ebb74f44d0347c801ed9d
+SHA1: 38fcf1d5fa19f3b14bbf6860ede8aae16b7cd0ec
+SHA256: 71b4d73f148bee100ffb6bd4e8355b2528e7f496bf430d2d29dfab8431ae2f4f
+Section: misc
+Priority: optional
+Description: This is an advanced implentation of LOAM.
+ LOAM is described in the following paper: J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time. Robotics: Science and Systems Conference (RSS). Berkeley, CA, July 2014.
+
+Package: ros-noetic-hector-mapping
+Version: 0.3.5-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 656
+Depends: libboost-thread1.71.0, libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libboost-all-dev, libeigen3-dev, ros-noetic-laser-geometry, ros-noetic-message-filters, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-tf, ros-noetic-tf-conversions, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-hector-mapping_0.3.5-0focal_amd64.deb
+Size: 150140
+MD5sum: 1f1fe0afad64046157787d79bbfb12d2
+SHA1: 3d02755ade9d4a5dcd39cdf0a078ca2849291b3b
+SHA256: 09f04e9dacaaf2f244b0f78c38b952a9e07f76151a61aa7ac643f76973153f5e
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/hector_mapping
+Description: hector_mapping is a SLAM approach that can be used without odometry as well as on platforms that exhibit roll/pitch motion (of the sensor, the platform or both).
+ It leverages the high update rate of modern LIDAR systems like the Hokuyo UTM-30LX and provides 2D pose estimates at scan rate of the sensors (40Hz for the UTM-30LX). While the system does not provide explicit loop closing ability, it is sufficiently accurate for many real world scenarios. The system has successfully been used on Unmanned Ground Robots, Unmanned Surface Vehicles, Handheld Mapping Devices and logged data from quadrotor UAVs.
+
+Package: ros-noetic-libcamera
+Version: 0.3.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 4077
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.6.12), libstdc++6 (>= 6), libyaml-0-2, libatomic1, libssl-dev, libudev-dev, libyaml-dev
+Filename: pool/noetic/main/ros-noetic-libcamera_0.3.0-0focal_amd64.deb
+Size: 810312
+MD5sum: 0212ff3519121104e818df19c55a4535
+SHA1: 704579c8956edcc63d34180f603acde6fa8ead8c
+SHA256: 80139d959498750f61c81919f2f25240f2a8c9df5a9f67899487301ed4aac73c
+Section: misc
+Priority: optional
+Homepage: https://libcamera.org
+Description: An open source camera stack and framework for Linux, Android, and ChromeOS
+
+Package: ros-noetic-libcamera-ros
+Version: 0.1.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 307
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-camera-info-manager, ros-noetic-cmake-modules, ros-noetic-image-transport, ros-noetic-libcamera, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-libcamera-ros_0.1.0-0focal_amd64.deb
+Size: 72588
+MD5sum: 94d5e0a10ca5e5173d001d6ea735fa5d
+SHA1: b4f24f7179d56d2fc667ed02da3b4a3017a2a6e8
+SHA256: 2a4454d8cd09f47f056b9fd68e1c9db408e03db16c8bf13ab4427cd759f2deb0
+Section: misc
+Priority: optional
+Description: Package for libcamera supported cameras (V4L2, Raspberry Pi Camera Modules) for ROS
+
 Package: ros-noetic-liosam
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -58,6 +122,21 @@ SHA256: db48256d747ee1075b37257585a99ee8bcc026a1d035589a2610aeaa9b6c46ad
 Section: misc
 Priority: optional
 Description: The mavlink_sitl_gazebo package
+
+Package: ros-noetic-mins
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 9202
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.29), libgcc-s1 (>= 4.0), libgomp1 (>= 6), libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libpcl-common1.10 (>= 1.10.0+dfsg), libpcl-filters1.10 (>= 1.10.0+dfsg), libpcl-segmentation1.10 (>= 1.10.0+dfsg), libstdc++6 (>= 9), ros-noetic-cmake-modules, ros-noetic-cv-bridge, ros-noetic-geometry-msgs, ros-noetic-image-geometry, ros-noetic-image-transport, ros-noetic-libpointmatcher, ros-noetic-nav-msgs, ros-noetic-ov-core, ros-noetic-pcl-ros, ros-noetic-rosbag, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-visualization-msgs
+Filename: pool/noetic/main/ros-noetic-mins_1.0.0-0focal_amd64.deb
+Size: 2256756
+MD5sum: 796f48102432698486c76efc5d8c681a
+SHA1: d062a4f38a7810359b3ced59a1572bec752f919b
+SHA256: 87ff183e637fc70ebbdc861a3b715771ad1b2503baeb4acdafd319c34587c2e2
+Section: misc
+Priority: optional
+Description: MINS: Efficient and Robust Multisensor-aided Inertial Navigation System
 
 Package: ros-noetic-nimbro-cam-transport
 Version: 0.0.1-0focal
@@ -243,6 +322,36 @@ Priority: optional
 Homepage: https://docs.openvins.com/
 Description: Implementation of a type-based error-state Kalman filter.
 
+Package: ros-noetic-pairs-aloam-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 92
+Depends: ros-noetic-aloam-slam, ros-noetic-cmake-modules, ros-noetic-pairs-aloam-estimator-plugin
+Filename: pool/noetic/main/ros-noetic-pairs-aloam-core_1.0.0-0focal_amd64.deb
+Size: 12544
+MD5sum: 4bf38b73a8185e290e3df8c7563d4e94
+SHA1: cc4ba6311f2b91989990a0656d8754f5115badbf
+SHA256: 4196ccf2c0f931e7e82ac37636cd11f8937c6d30bf356aeb4dcdc6ad47cc65a9
+Section: misc
+Priority: optional
+Description: The MRS ALOAM core metapackage
+
+Package: ros-noetic-pairs-aloam-estimator-plugin
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 320
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-aloam-estimator-plugin_1.0.0-0focal_amd64.deb
+Size: 59340
+MD5sum: b3d171c6e8cf7dd2f78297176b31efb8
+SHA1: 73c681d9c20337dcec63f6bcdbd41c76674bb14a
+SHA256: 418c5fcfbceb138c2af6b4880784ace7c457fee1ae5d2a5e5f327f88cf92bb38
+Section: misc
+Priority: optional
+Description: MRS ALOAM state estimator plugin
+
 Package: ros-noetic-pairs-bumper
 Version: 1.0.4-0focal
 Architecture: amd64
@@ -318,6 +427,51 @@ Section: misc
 Priority: optional
 Description: This package contains common gazebo files (worlds, models and plugins) for the PAIRS system.
 
+Package: ros-noetic-pairs-hector-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 80
+Depends: ros-noetic-cmake-modules, ros-noetic-hector-mapping, ros-noetic-pairs-hector-estimator-plugin
+Filename: pool/noetic/main/ros-noetic-pairs-hector-core_1.0.0-0focal_amd64.deb
+Size: 11172
+MD5sum: 29714c2616dea51993ff1a63410e47c7
+SHA1: b9de03ddf92d9742949df4becb4262b684f35cae
+SHA256: cb2cf9f520481d0f2e71b5893686ef5ad252d305fb79a72d7473bf30323478a9
+Section: misc
+Priority: optional
+Description: The MRS Hector SLAM core metapackage
+
+Package: ros-noetic-pairs-hector-estimator-plugin
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 320
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-hector-estimator-plugin_1.0.0-0focal_amd64.deb
+Size: 59284
+MD5sum: 7200de0ff777c5b6c71dd100bd73c74d
+SHA1: 45482739dab1ef06872367f4dc01a1e692372336
+SHA256: 23e16e168f58a1d42649edab5865d4fb9b72c6bf64568c351c303105fb1cb224
+Section: misc
+Priority: optional
+Description: MRS Hector SLAM state estimator plugin
+
+Package: ros-noetic-pairs-icm-imu-driver
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-cmake-modules, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-icm-imu-driver_1.0.0-0focal_amd64.deb
+Size: 25140
+MD5sum: f2eef2ebecba38edaafd826665128565
+SHA1: d90ee381591678559860060214ed12914c75db18
+SHA256: fcf8bec38ab6d915c552190ec3a5c3078fa6f82d90600bb1aeb7aa044b6607cf
+Section: misc
+Priority: optional
+Description: ICM-42688-P IMU driver
+
 Package: ros-noetic-pairs-landing-pad-estimation
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -377,6 +531,36 @@ SHA256: 26648d69e261574586859dbed7e2503c892da8b031e14645802ec52e0472dbfb
 Section: misc
 Priority: optional
 Description: Lio-sam PAIRS state estimator plugin
+
+Package: ros-noetic-pairs-mins-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1819
+Depends: ros-noetic-cmake-modules, ros-noetic-imu-transformer, ros-noetic-mins, ros-noetic-pairs-mins-estimator-plugin, ros-noetic-pairs-vins-imu-filter, ros-noetic-pairs-vins-republisher
+Filename: pool/noetic/main/ros-noetic-pairs-mins-core_1.0.0-0focal_amd64.deb
+Size: 51580
+MD5sum: 9b58e2e2dcb587140b38ddf4ebac2f17
+SHA1: 3e3d3e4cefa14eff74713e80d9404faf003e7e26
+SHA256: b5f6eee2e1ed3a3e46116cb09c2b5448c0cac0927080132c1875baabf3428522
+Section: misc
+Priority: optional
+Description: The MRS mins core metapackage
+
+Package: ros-noetic-pairs-mins-estimator-plugin
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 321
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), ros-noetic-pairs-uav-managers, ros-noetic-pairs-uav-state-estimators, ros-noetic-roscpp
+Filename: pool/noetic/main/ros-noetic-pairs-mins-estimator-plugin_1.0.0-0focal_amd64.deb
+Size: 59060
+MD5sum: c3364fb0604b27758f87051d8a529f3e
+SHA1: e7fdb3e5cc2244568c708766312990ed7c949d90
+SHA256: 12c69e72eaf4c5071647740f9450f83b37032aa68c9575b4795ac2b4e0204584
+Section: misc
+Priority: optional
+Description: MRS mins state estimator plugin
 
 Package: ros-noetic-pairs-modules-msgs
 Version: 1.0.0-0focal
@@ -603,6 +787,36 @@ Section: misc
 Priority: optional
 Description: pairs_precise_landing_gazebo
 
+Package: ros-noetic-pairs-robofly-core
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 60
+Depends: ros-noetic-cmake-modules, ros-noetic-libcamera-ros, ros-noetic-pairs-icm-imu-driver, ros-noetic-rospy
+Filename: pool/noetic/main/ros-noetic-pairs-robofly-core_1.0.0-0focal_amd64.deb
+Size: 11416
+MD5sum: aa7020e4cfb904b6ec7d7b1db13fbae9
+SHA1: 377a456e2d25e1060c4fb1f8f85586ead7000f35
+SHA256: b39d76bc53023300f31c8cab845709c10fba091be85a5e90b2abfebf4e93c3ab
+Section: misc
+Priority: optional
+Description: Core resources for the Fly4Future's Robofly drone
+
+Package: ros-noetic-pairs-robofly-example
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 45
+Depends: ros-noetic-pairs-msgs, ros-noetic-rospy, ros-noetic-std-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-robofly-example_1.0.0-0focal_amd64.deb
+Size: 6492
+MD5sum: f75991369f59d46aff5fd41f8ddcd918
+SHA1: 8c0012c561d865ed2594d5357f58c5c7c9a5794f
+SHA256: 08aae218dab85685bd455a22ac7efa1a614944831e13d084bdea8f89a04179d0
+Section: misc
+Priority: optional
+Description: Robofly example
+
 Package: ros-noetic-pairs-rviz-plugins
 Version: 1.0.4-0focal
 Architecture: amd64
@@ -813,6 +1027,21 @@ Section: misc
 Priority: optional
 Description: The PAIRS UAV Core metapackage
 
+Package: ros-noetic-pairs-uav-deployment
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 1471
+Depends: ros-noetic-cmake-modules, ros-noetic-roscpp, ros-noetic-rospy
+Filename: pool/noetic/main/ros-noetic-pairs-uav-deployment_1.0.0-0focal_amd64.deb
+Size: 513376
+MD5sum: 9ce0e830f0bcedb92554d69cec6aad6a
+SHA1: e923aa44064d907296ee3a1b39d3c83bc50dc41f
+SHA256: 947b01e4e80e8b7a7b360678a00353e12ebc2ea8abca632db309ead3a1827a12
+Section: misc
+Priority: optional
+Description: The pairs_uav_deployment package
+
 Package: ros-noetic-pairs-uav-dji-tello-api
 Version: 1.0.0-0focal
 Architecture: amd64
@@ -977,6 +1206,21 @@ SHA256: e6dc414fba667995d2ad946f765005d963a55d04dd035f2fcf3a8b42ce17306c
 Section: misc
 Priority: optional
 Description: The MRS UAV System metapackage
+
+Package: ros-noetic-pairs-uav-system-full
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 15
+Depends: python-is-python3, ros-noetic-image-transport, ros-noetic-image-transport-plugins, ros-noetic-joy, ros-noetic-pairs-aloam-core, ros-noetic-pairs-hector-core, ros-noetic-pairs-liosam-core, ros-noetic-pairs-mins-core, ros-noetic-pairs-octomap-mapping-planning, ros-noetic-pairs-open-vins-core, ros-noetic-pairs-precise-landing, ros-noetic-pairs-precise-landing-gazebo, ros-noetic-pairs-robofly-core, ros-noetic-pairs-uav-coppelia-simulation, ros-noetic-pairs-uav-core, ros-noetic-pairs-uav-deployment, ros-noetic-pairs-uav-dji-tello-api, ros-noetic-pairs-uav-gazebo-simulation, ros-noetic-pairs-uav-modules, ros-noetic-pairs-uav-px4-api, ros-noetic-pairs-uav-unreal-simulation, ros-noetic-rosbridge-suite, ros-noetic-vision-msgs
+Filename: pool/noetic/main/ros-noetic-pairs-uav-system-full_1.0.0-0focal_amd64.deb
+Size: 2232
+MD5sum: 9b438ee7510b2f251cc1038ca732a2db
+SHA1: 09c5a4a9a00efa1b00ecba8dc0da1428646548ca
+SHA256: 4bc0402a6d499db51b54d23d6471df3542649b80a1359c828fa6f22dce49081e
+Section: misc
+Priority: optional
+Description: The MRS UAV System Full metapackage
 
 Package: ros-noetic-pairs-uav-testing
 Version: 1.0.0-0focal
