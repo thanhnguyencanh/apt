@@ -967,6 +967,21 @@ Section: misc
 Priority: optional
 Description: Robofly example
 
+Package: ros-noetic-pairs-rqt-control
+Version: 1.0.0-0focal
+Architecture: amd64
+Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
+Installed-Size: 57
+Depends: ros-noetic-pairs-msgs, ros-noetic-python-qt-binding, ros-noetic-rospy, ros-noetic-rqt-gui, ros-noetic-rqt-gui-py, ros-noetic-std-srvs
+Filename: pool/noetic/main/ros-noetic-pairs-rqt-control_1.0.0-0focal_amd64.deb
+Size: 10948
+MD5sum: f37fa9256f21b62a1626f0efa09a5bb9
+SHA1: 8e9c7978c3c536bc66b1491615f45132e324ef11
+SHA256: 1c7369efe080b0de63ddf65173feecb0c39e7697a98b3f87040d0a7ffc7529de
+Section: misc
+Priority: optional
+Description: rqt GUI control panel for the PAIRS UAV system: a window of buttons and fields to arm, take off, fly (goto), hover, and land a UAV in simulation or on hardware.
+
 Package: ros-noetic-pairs-rviz-plugins
 Version: 1.0.4-0focal
 Architecture: amd64
@@ -1211,13 +1226,13 @@ Package: ros-noetic-pairs-uav-gazebo-simulation
 Version: 1.0.3-0focal
 Architecture: amd64
 Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
-Installed-Size: 39250
-Depends: python3-jinja2, ros-noetic-cmake-modules, ros-noetic-gazebo-ros, ros-noetic-mavlink-sitl-gazebo, ros-noetic-mavros-msgs, ros-noetic-message-runtime, ros-noetic-pairs-gazebo-common-resources, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-gazebo-testing, ros-noetic-pairs-uav-px4-api, ros-noetic-px4, ros-noetic-rospy, ros-noetic-std-msgs
+Installed-Size: 39251
+Depends: python3-jinja2, ros-noetic-cmake-modules, ros-noetic-gazebo-ros, ros-noetic-mavlink-sitl-gazebo, ros-noetic-mavros-msgs, ros-noetic-message-runtime, ros-noetic-pairs-gazebo-common-resources, ros-noetic-pairs-msgs, ros-noetic-pairs-rqt-control, ros-noetic-pairs-uav-gazebo-testing, ros-noetic-pairs-uav-px4-api, ros-noetic-px4, ros-noetic-rospy, ros-noetic-std-msgs
 Filename: pool/noetic/main/ros-noetic-pairs-uav-gazebo-simulation_1.0.3-0focal_amd64.deb
-Size: 5449156
-MD5sum: bf6a5de652950f3a262ddaa1f8a287a0
-SHA1: d4abfd7e3b6ed2c482395be1bc941a2e05affacc
-SHA256: 54e87ed232dfc3aa0886840a59c45fea55834efe41ea7cf69b63d76c507a8ee0
+Size: 5453808
+MD5sum: 248c9bea7bc344988ef2836687df18fd
+SHA1: cf168763ba5df68931a630f5389189ecbf55cc43
+SHA256: 164b04db4d530e6be21b0161160228d55ff1ce7e81236c6c8c5fdd7211678b57
 Section: misc
 Priority: optional
 Description: The Metapackage for PAIRS UAV Gazebo simulation pipeline.
