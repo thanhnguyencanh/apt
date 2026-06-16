@@ -971,13 +971,13 @@ Package: ros-noetic-pairs-rqt-control
 Version: 1.0.0-0focal
 Architecture: amd64
 Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
-Installed-Size: 59
+Installed-Size: 61
 Depends: ros-noetic-pairs-msgs, ros-noetic-python-qt-binding, ros-noetic-rospy, ros-noetic-rqt-gui, ros-noetic-rqt-gui-py, ros-noetic-std-srvs
 Filename: pool/noetic/main/ros-noetic-pairs-rqt-control_1.0.0-0focal_amd64.deb
-Size: 11540
-MD5sum: 5e96c3f740d776fc5dc45d8152fb3aa9
-SHA1: dbe254facf15e82e3b5868b7a92837662ba2d543
-SHA256: 810fc756129370a41a1cd1e92097ba4a38091b57eb22080705e3b386e0dbccf3
+Size: 12000
+MD5sum: d71d18ee60782fe3963091065714e773
+SHA1: 2e12960690cd62bf9ccf1c206f156b01fd416f81
+SHA256: e89821cdd67174e151ff0a5ed1227bff18a07004ae2014b3469f731306c2cc1c
 Section: misc
 Priority: optional
 Description: rqt GUI control panel for the PAIRS UAV system: a window of buttons and fields to arm, take off, fly (goto), hover, and land a UAV in simulation or on hardware.
