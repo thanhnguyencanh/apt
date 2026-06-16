@@ -1214,10 +1214,10 @@ Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
 Installed-Size: 39250
 Depends: python3-jinja2, ros-noetic-cmake-modules, ros-noetic-gazebo-ros, ros-noetic-mavlink-sitl-gazebo, ros-noetic-mavros-msgs, ros-noetic-message-runtime, ros-noetic-pairs-gazebo-common-resources, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-gazebo-testing, ros-noetic-pairs-uav-px4-api, ros-noetic-px4, ros-noetic-rospy, ros-noetic-std-msgs
 Filename: pool/noetic/main/ros-noetic-pairs-uav-gazebo-simulation_1.0.3-0focal_amd64.deb
-Size: 5452892
-MD5sum: 5ae74e5e2c975c090fcc85a42b3dff5c
-SHA1: 9093ecfe31e8a05e21c0e62ac1c36ffb7ddc6e36
-SHA256: a119dfe11e266c2ca68643ad339cc47d29c4ded030bc85bf233d6e882a885be0
+Size: 5449156
+MD5sum: bf6a5de652950f3a262ddaa1f8a287a0
+SHA1: d4abfd7e3b6ed2c482395be1bc941a2e05affacc
+SHA256: 54e87ed232dfc3aa0886840a59c45fea55834efe41ea7cf69b63d76c507a8ee0
 Section: misc
 Priority: optional
 Description: The Metapackage for PAIRS UAV Gazebo simulation pipeline.
