@@ -1409,10 +1409,10 @@ Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
 Installed-Size: 1949
 Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-nlopt, ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
 Filename: pool/noetic/main/ros-noetic-pairs-uav-trajectory-generation_1.0.4-0focal_amd64.deb
-Size: 444852
-MD5sum: 33253443cce6dff4ddaf280ad774df94
-SHA1: 3ea0ae78118155cd22d4d8b10cc7fcc6ea354d59
-SHA256: 8f41469b4a168b118bb405c69f158f6ee2195cd428ad4c847147acb3532b450d
+Size: 444952
+MD5sum: 489817950bf2c049cba5f9df50b15f0e
+SHA1: 2ef4228df3a289e1872de975eb41d643ac1f6adb
+SHA256: bb61928b77bb1521062c3a52ad40c724af0f5a121da023920439e2d38893f9d9
 Section: misc
 Priority: optional
 Description: UAV trajectory generation
