@@ -1331,13 +1331,13 @@ Package: ros-noetic-pairs-uav-state-estimators
 Version: 0.0.3-0focal
 Architecture: amd64
 Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
-Installed-Size: 5557
+Installed-Size: 5558
 Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nav-msgs, ros-noetic-nodelet, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-plotjuggler, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2-geometry-msgs, ros-noetic-tf2-ros
 Filename: pool/noetic/main/ros-noetic-pairs-uav-state-estimators_0.0.3-0focal_amd64.deb
-Size: 724644
-MD5sum: 6eaebaf79ddb9478b3651301d811b89f
-SHA1: 587fd853944153c9fb0b852a55e20145247e2d3e
-SHA256: ae0f8fd855736833897d34dd5b9fc47b7ac76d8ae6b0f11e8abf910c9a8fcda8
+Size: 723416
+MD5sum: 1f2262c957e1cbc5180207fc0f5028b5
+SHA1: d04adaa557fa9af801cc3871703104d04228040f
+SHA256: 072176fa1ec297f1f249b088db5a2c26fcc9d76aa32faac89618826840f8793a
 Section: misc
 Priority: optional
 Description: The pairs_uav_state_estimators package
