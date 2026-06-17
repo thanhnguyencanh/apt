@@ -1136,13 +1136,13 @@ Package: ros-noetic-pairs-uav-controllers
 Version: 1.0.4-0focal
 Architecture: amd64
 Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
-Installed-Size: 2933
-Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy
+Installed-Size: 2901
+Depends: libc6 (>= 2.27), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy
 Filename: pool/noetic/main/ros-noetic-pairs-uav-controllers_1.0.4-0focal_amd64.deb
-Size: 483928
-MD5sum: 201562a69420f7be039375f9aba51b31
-SHA1: ba01afa99206009862c32138ca4ce7fe13c69836
-SHA256: 88080b95d231153ed6db0ecb379b4fb913d83644eeaf562e448ef9ce2be16913
+Size: 471852
+MD5sum: fca111882f72ec6fbeea507e07f735f0
+SHA1: d917271d6089d8f5a82ca376057f72364eacd68b
+SHA256: c8a2be1dd8bccbf89a3926f15b9cf0b81ba8662854344f1bfce50a8991fe2017
 Section: misc
 Priority: optional
 Description: The pairs_uav_controllers package
@@ -1406,13 +1406,13 @@ Package: ros-noetic-pairs-uav-trackers
 Version: 1.0.4-0focal
 Architecture: amd64
 Maintainer: Thanh Nguyen Canh <canhthanh@vnu.edu.vn>
-Installed-Size: 3491
-Depends: libc6 (>= 2.29), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-tf
+Installed-Size: 3446
+Depends: libc6 (>= 2.27), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libyaml-cpp0.6 (>= 0.6.2), ros-noetic-cmake-modules, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-pairs-lib, ros-noetic-pairs-msgs, ros-noetic-pairs-uav-managers, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-tf
 Filename: pool/noetic/main/ros-noetic-pairs-uav-trackers_1.0.4-0focal_amd64.deb
-Size: 633128
-MD5sum: a13f8e7ea95f509e949bb45184b8d2a6
-SHA1: eb2024f21cf4a7a127afff25940a5e4b42253203
-SHA256: b4007e6e8f393fe02b4ffd2d099e8ef5cd8ae6282f05c1af55f7c5658810c824
+Size: 618668
+MD5sum: bcc603947841334e687e78a3fe5af889
+SHA1: c46ce0981863db0b3f3174d4bf7359ed996c8e6b
+SHA256: 4fe78600ce561949263d782181a3cbda7ab4177b632cfbd4982acca466a5805a
 Section: misc
 Priority: optional
 Description: The pairs_uav_trackers package
